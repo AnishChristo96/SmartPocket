@@ -1,0 +1,35 @@
+menu "Example Configuration"
+
+    config ENABLE_TOUCH_WAKEUP
+        bool "Enable touch wake up"
+        default y
+        help
+            This option enables wake up from deep sleep using touch pads
+            TOUCH8 and TOUCH9, which correspond to GPIO33 and GPIO32.
+
+    config ENABLE_ULP_TEMPERATURE_WAKEUP
+        bool "Enable temperature monitoring by ULP"
+        default y
+        help
+            This option enables wake up from deep sleep using ULP.
+            ULP program monitors the on-chip temperature sensor and
+            wakes up the chip when the temperature goes outside of
+            the window defined by the initial temperature and a threshold
+            around it.
+
+endmenu
+
+menu "Example 'GATT SERVER' Config"
+
+    config SET_RAW_ADV_DATA
+        bool "Use raw data for advertising packets and scan response data"
+        help
+            If this config item is set, raw binary data will be used to generate advertising & scan response data.
+            This option uses the esp_ble_gap_config_adv_data_raw() and esp_ble_gap_config_scan_rsp_data_raw()
+            functions.
+
+            If this config item is unset, advertising & scan response data is provided via a higher-level
+            esp_ble_adv_data_t structure. The lower layer will generate the BLE packets. This option has higher
+            overhead at runtime.
+
+endmenu

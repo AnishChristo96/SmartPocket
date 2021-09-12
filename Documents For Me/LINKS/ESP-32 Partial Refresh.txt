@@ -1,0 +1,36 @@
+Fast partial refresh on 4.2" E-paper display from Waveshare / Good Display 				NO
+https://benkrasnow.blogspot.com/2017/10/fast-partial-refresh-on-42-e-paper.html
+
+IDK GOOGLE DRIVE SOMETHING
+https://drive.google.com/drive/folders/0B4YXWiqYWB99a1ptV1BQcTB4cjg
+
+New E INK 4.7-inch e-Paper display is great for tinkering
+https://goodereader.com/blog/electronic-readers/new-e-ink-4-7-inch-e-paper-display-is-great-for-tinkering
+
+E-Paper Display Partial Refresh With Arduino
+https://www.instructables.com/E-Paper-Display-Partial-Refresh-With-Arduino/
+
+ESP-IDF Component Documentation
+Component: epaper-29-ws
+https://esp-epaper-29-ws.readthedocs.io/en/latest/
+
+/
+EPD_Libraries
+https://github.com/Bodmer/EPD_Libraries/blob/master/epd2in9/examples/epd2in9-demo/epd2in9-demo.ino
+
+GoDisplay webite
+https://www.good-display.com/product/6/#c_portalResProduct_list-15881346159377442-3
+https://www.good-display.com/product/201.html
+GDEH029A1
+
+File:2.9inch e-Paper Module code particle.7z	waste
+https://www.waveshare.com/wiki/File:2.9inch_e-Paper_Module_code_particle.7z
+
+2.9inch e-Paper Module										RESOURCES 
+https://www.waveshare.com/wiki/2.9inch_e-Paper_Module
+https://www.waveshare.com/2.9inch-e-paper-module.htm
+https://www.waveshare.com/w/upload/7/79/2.9inch-e-paper-v2-specification.pdf
+https://www.waveshare.com/w/upload/9/98/2.9inch-e-paper-module-user-manual-en.pdf
+
+GITHUB JUICE											JUICE EXTREME
+https://github.com/waveshare/e-Paper/blob/master/Arduino/epd2in9/epd2in9.cpp
