@@ -1,0 +1,590 @@
+ESP-32 SMART KEYCHAIN V1.0 (23_2_2021)
+UPDATES:
+1) Replaced 0.96 inch OLED screen with 2.9 inch e-paper display
+	Removed pins: 21 & 22 [PREV USED FOR SDA & SCK RESP FOR OLED]
+
+2) Added GPIO pins for e-paper display:
+	-BUSY:	32
+	-RST:	23
+	-DC:	27
+	-CS:	19
+	-CLK:	18
+	-DIN:	5
+
+3) Replaced ESP-32 Devkit with ESP-32 Breakout Board
+
+4) Added Voltage divider circuit for Battery measurement:
+	-from Vcc-> 64K Ohm -> 24.1K Ohm -> Gnd
+	-GPIO 34 connects to the point between 64K and 24.1K to read adc measurement
+
+5) E-paper display now displays all the information NEATLY
+	-Kural Number
+	-Fav/Not a Fav
+	-Adhigaram Number
+	-Adhigaram
+	-Kural Line 1
+	-Kural Line 2
+	-Explanation Lines 1-7
+	-Date / Time in 12hr format / Time in 24hr format
+	-Battery Percentage / Battery bars [Example: ||||, -|||, --||, ---|, Battery Dead]
+
+6) Bluetooth functionality now has added features:
+	-Can set the time from Phone
+	-Get the kurals read and at what time
+
+
+
+
+
+
+
+~~~~~~~~~V0.6~~~~~~~~~~
+UPDATES:
+1) Added NEW GPIO Pin: GPIO 33 for the LED Notification in BT mode
+
+2) BT functionality now has added LED notification. This has been enabled by GPIO 33. Here are the LED's modes:
+	- LED off when not in BT usage at all
+	- LED Blinking mode when trying to connect to a Device.
+	- LED stable (always ON) when connected device.
+	- LED back to off state when BT Disconnect
+	- GPIO is set accordingly to functionality [ON/OFF, DELAYS, etc.]
+
+
+~~~~~~~~~V0.5~~~~~~~~~~
+UPDATES:
+1) Added NEW GPIO Pin: GPIO 25 for the OLED Screen
+2) OLED screen is now powered by GPIO 25
+	- which is HIGH AFTER BOOT & BEFORE I2C (forOLED) is initialized
+	- which is low only when Keychain goes to Deep sleep mode
+	- which is made HIGH again after Deep sleep's SOFT RESET [DEEP SLEEP RESET IS HERE ON CALLED SOFT RESET]
+
+3) REMOVED: Reading Thirukkural text file
+
+4) Added 1330 thirukkural as switch case instead [Speed very significantly increased]
+
+5) Added a Reverse Countdown Timer Starting from 6 to 1.
+	- 6,5,4,3,2,1,Deep sleep
+	- Any button toggle resets timer
+	- BT MODE disables timer
+
+
+~~~~~~~~~V0.4~~~~~~~~~~
+UPDATES:
+1) Added 1000 switch case [FOR TESTING NOT ACTUAL THIRUKKURAL]
+	- Message able to be read on OLED Screen
+
+2) void print_what_saved() is now called only once thus only 1 x 1000 switch case [PREVIOUSLY 3 SWITCH CASES]
+
+3) Favourites button now mentions as:
+	- "~~~~~Favourite~~~~" or
+	- "~Not a Favourite~~"
+
+~~~~~~~~~V0.2~~~~~~~~~~
+UPDATES:
+1) Button 14: Added as FAVOURITES BUTTON
+	-Fav button can toggle ON and OFF on same switch.
+	-Any message can be made Favourite (or removed) at any point.
+
+2) ANY BUTTON can WAKEUP keychain from Deep sleep.
+
+3) Fixed all TIMER related errors thereby eliminating SOFTWARE PC HARD RESET. Only resets available are:
+	- Deep Sleep Reset (which is default when ESP32 recovers from ULP and goes to main)
+	- Manual Restart button to restart keychain (if and when required)
+	- BT disconnect which refreshes BT connection and restarts.
+
+4) Out of bounds error corrected
+
+5) BT name changed to "SMART KEYCHAIN"
+
+6) Fixed Button Delays:
+	- All Buttons (left, right, favs, sleep on & wakeup from any button) refined to a 'USER LEVEL' (almost instantaneous)
+	- BT on made must be pressed and held for 2 seconds
+	- BT wake from same button
+
+7) BT disable button added (from Button 4 only) [PREVIOUSLY: BT disconnect only from User phone]
+
+8) Developoment Analytics:
+	- All Button Counters refined for Serial monitoring values (i.e. they look neat now !)
+	- BT mode passes values of all button counters on PROFILE A & all favourites saved on PROFILE B (for APP Interaction)
+
+MINOR FIX: Fixed 'Current Message' Error [Wrong message was displayed]
+
+~~~~~~~~~V0.1~~~~~~~~~~
+GPIO used: 26, 13, 14, 2, 21, 22, (4)
+
+Button Left: 26
+Button Right: 13
+Button NOT USED: 14
+Button Sleep/Wake/BT: 2
+SDA (OLED): 21
+SCL(OLED): 22
+4: Gnd (To prevent ESP from accidental wake from floating high)
+
+Button Features:
+Button Left: Prev message + Restart timer
+Button Right: Next message + Restart timer
+Button Sleep/Wake: Sleep + Wake + HOLD FOR 2 SECONDS for BT activate 
+
+Features:
+2 modes available: Learning Mode (on start/default), BT mode (for app connect)
+
+1 Auto Sleep after 6 seconds according to code [actual: 6.6 seconds]
+2 Timer resets after every button press(Except BT)
+3 BT mode is activated after holding button 4 for 2 seconds
+4 BT mode disables timer temporarily
+5 BT can get message of Button press count from ESP Server
+6 BT disconnect event goes back to button press state for keychain & timer starts too
+
+
+
+=========================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+ESP-32 SMART KEYCHAIN V0.6 (29_1_2021)
+UPDATES:
+1) Added NEW GPIO Pin: GPIO 33 for the LED Notification in BT mode
+
+2) BT functionality now has added LED notification. This has been enabled by GPIO 33. Here are the LED's modes:
+	- LED off when not in BT usage at all
+	- LED Blinking mode when trying to connect to a Device.
+	- LED stable (always ON) when connected device.
+	- LED back to off state when BT Disconnect
+	- GPIO is set accordingly to functionality [ON/OFF, DELAYS, etc.]
+
+
+~~~~~~~~~V0.5~~~~~~~~~~
+UPDATES:
+1) Added NEW GPIO Pin: GPIO 25 for the OLED Screen
+2) OLED screen is now powered by GPIO 25
+	- which is HIGH AFTER BOOT & BEFORE I2C (forOLED) is initialized
+	- which is low only when Keychain goes to Deep sleep mode
+	- which is made HIGH again after Deep sleep's SOFT RESET [DEEP SLEEP RESET IS HERE ON CALLED SOFT RESET]
+
+3) REMOVED: Reading Thirukkural text file
+
+4) Added 1330 thirukkural as switch case instead [Speed very significantly increased]
+
+5) Added a Reverse Countdown Timer Starting from 6 to 1.
+	- 6,5,4,3,2,1,Deep sleep
+	- Any button toggle resets timer
+	- BT MODE disables timer
+
+
+~~~~~~~~~V0.4~~~~~~~~~~
+UPDATES:
+1) Added 1000 switch case [FOR TESTING NOT ACTUAL THIRUKKURAL]
+	- Message able to be read on OLED Screen
+
+2) void print_what_saved() is now called only once thus only 1 x 1000 switch case [PREVIOUSLY 3 SWITCH CASES]
+
+3) Favourites button now mentions as:
+	- "~~~~~Favourite~~~~" or
+	- "~Not a Favourite~~"
+
+~~~~~~~~~V0.2~~~~~~~~~~
+UPDATES:
+1) Button 14: Added as FAVOURITES BUTTON
+	-Fav button can toggle ON and OFF on same switch.
+	-Any message can be made Favourite (or removed) at any point.
+
+2) ANY BUTTON can WAKEUP keychain from Deep sleep.
+
+3) Fixed all TIMER related errors thereby eliminating SOFTWARE PC HARD RESET. Only resets available are:
+	- Deep Sleep Reset (which is default when ESP32 recovers from ULP and goes to main)
+	- Manual Restart button to restart keychain (if and when required)
+	- BT disconnect which refreshes BT connection and restarts.
+
+4) Out of bounds error corrected
+
+5) BT name changed to "SMART KEYCHAIN"
+
+6) Fixed Button Delays:
+	- All Buttons (left, right, favs, sleep on & wakeup from any button) refined to a 'USER LEVEL' (almost instantaneous)
+	- BT on made must be pressed and held for 2 seconds
+	- BT wake from same button
+
+7) BT disable button added (from Button 4 only) [PREVIOUSLY: BT disconnect only from User phone]
+
+8) Developoment Analytics:
+	- All Button Counters refined for Serial monitoring values (i.e. they look neat now !)
+	- BT mode passes values of all button counters on PROFILE A & all favourites saved on PROFILE B (for APP Interaction)
+
+MINOR FIX: Fixed 'Current Message' Error [Wrong message was displayed]
+
+~~~~~~~~~V0.1~~~~~~~~~~
+GPIO used: 26, 13, 14, 2, 21, 22, (4)
+
+Button Left: 26
+Button Right: 13
+Button NOT USED: 14
+Button Sleep/Wake/BT: 2
+SDA (OLED): 21
+SCL(OLED): 22
+4: Gnd (To prevent ESP from accidental wake from floating high)
+
+Button Features:
+Button Left: Prev message + Restart timer
+Button Right: Next message + Restart timer
+Button Sleep/Wake: Sleep + Wake + HOLD FOR 2 SECONDS for BT activate 
+
+Features:
+2 modes available: Learning Mode (on start/default), BT mode (for app connect)
+
+1 Auto Sleep after 6 seconds according to code [actual: 6.6 seconds]
+2 Timer resets after every button press(Except BT)
+3 BT mode is activated after holding button 4 for 2 seconds
+4 BT mode disables timer temporarily
+5 BT can get message of Button press count from ESP Server
+6 BT disconnect event goes back to button press state for keychain & timer starts too
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=========================================================================================================================
+
+
+
+
+
+
+ESP-32 SMART KEYCHAIN V0.5 (27_1_2021)
+
+UPDATES:
+1) Added NEW GPIO Pin: GPIO 25 for the OLED Screen
+
+2) OLED screen is now powered by GPIO 25
+	- which is HIGH AFTER BOOT & BEFORE I2C (forOLED) is initialized
+	- which is low only when Keychain goes to Deep sleep mode
+	- which is made HIGH again after Deep sleep's SOFT RESET [DEEP SLEEP RESET IS HERE ON CALLED SOFT RESET]
+
+3) REMOVED: Reading Thirukkural text file
+
+4) Added 1330 thirukkural as switch case instead [Speed very significantly increased]
+
+5) Added a Reverse Countdown Timer Starting from 6 to 1.
+	- 6,5,4,3,2,1,Deep sleep
+	- Any button toggle resets timer
+	- BT MODE disables timer
+
+
+~~~~~~~~~V0.4~~~~~~~~~~
+UPDATES:
+1) Added 1000 switch case [FOR TESTING NOT ACTUAL THIRUKKURAL]
+	- Message able to be read on OLED Screen
+
+2) void print_what_saved() is now called only once thus only 1 x 1000 switch case [PREVIOUSLY 3 SWITCH CASES]
+
+3) Favourites button now mentions as:
+	- "~~~~~Favourite~~~~" or
+	- "~Not a Favourite~~"
+
+~~~~~~~~~V0.2~~~~~~~~~~
+UPDATES:
+1) Button 14: Added as FAVOURITES BUTTON
+	-Fav button can toggle ON and OFF on same switch.
+	-Any message can be made Favourite (or removed) at any point.
+
+2) ANY BUTTON can WAKEUP keychain from Deep sleep.
+
+3) Fixed all TIMER related errors thereby eliminating SOFTWARE PC HARD RESET. Only resets available are:
+	- Deep Sleep Reset (which is default when ESP32 recovers from ULP and goes to main)
+	- Manual Restart button to restart keychain (if and when required)
+	- BT disconnect which refreshes BT connection and restarts.
+
+4) Out of bounds error corrected
+
+5) BT name changed to "SMART KEYCHAIN"
+
+6) Fixed Button Delays:
+	- All Buttons (left, right, favs, sleep on & wakeup from any button) refined to a 'USER LEVEL' (almost instantaneous)
+	- BT on made must be pressed and held for 2 seconds
+	- BT wake from same button
+
+7) BT disable button added (from Button 4 only) [PREVIOUSLY: BT disconnect only from User phone]
+
+8) Developoment Analytics:
+	- All Button Counters refined for Serial monitoring values (i.e. they look neat now !)
+	- BT mode passes values of all button counters on PROFILE A & all favourites saved on PROFILE B (for APP Interaction)
+
+MINOR FIX: Fixed 'Current Message' Error [Wrong message was displayed]
+
+~~~~~~~~~V0.1~~~~~~~~~~
+GPIO used: 26, 13, 14, 2, 21, 22, (4)
+
+Button Left: 26
+Button Right: 13
+Button NOT USED: 14
+Button Sleep/Wake/BT: 2
+SDA (OLED): 21
+SCL(OLED): 22
+4: Gnd (To prevent ESP from accidental wake from floating high)
+
+Button Features:
+Button Left: Prev message + Restart timer
+Button Right: Next message + Restart timer
+Button Sleep/Wake: Sleep + Wake + HOLD FOR 2 SECONDS for BT activate 
+
+Features:
+2 modes available: Learning Mode (on start/default), BT mode (for app connect)
+
+1 Auto Sleep after 6 seconds according to code [actual: 6.6 seconds]
+2 Timer resets after every button press(Except BT)
+3 BT mode is activated after holding button 4 for 2 seconds
+4 BT mode disables timer temporarily
+5 BT can get message of Button press count from ESP Server
+6 BT disconnect event goes back to button press state for keychain & timer starts too
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=========================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ESP-32 SMART KEYCHAIN V0.4 (26_1_2021)
+
+UPDATES:
+1) Added 1000 switch case [FOR TESTING NOT ACTUAL THIRUKKURAL]
+	- Message able to be read on OLED Screen
+
+2) void print_what_saved() is now called only once thus only 1 x 1000 switch case [PREVIOUSLY 3 SWITCH CASES]
+
+3) Favourites button now mentions as:
+	- "~~~~~Favourite~~~~" or
+	- "~Not a Favourite~~"
+
+
+~~~~~~~~~V0.2~~~~~~~~~~
+UPDATES:
+1) Button 14: Added as FAVOURITES BUTTON
+	-Fav button can toggle ON and OFF on same switch.
+	-Any message can be made Favourite (or removed) at any point.
+
+2) ANY BUTTON can WAKEUP keychain from Deep sleep.
+
+3) Fixed all TIMER related errors thereby eliminating SOFTWARE PC HARD RESET. Only resets available are:
+	- Deep Sleep Reset (which is default when ESP32 recovers from ULP and goes to main)
+	- Manual Restart button to restart keychain (if and when required)
+	- BT disconnect which refreshes BT connection and restarts.
+
+4) Out of bounds error corrected
+
+5) BT name changed to "SMART KEYCHAIN"
+
+6) Fixed Button Delays:
+	- All Buttons (left, right, favs, sleep on & wakeup from any button) refined to a 'USER LEVEL' (almost instantaneous)
+	- BT on made must be pressed and held for 2 seconds
+	- BT wake from same button
+
+7) BT disable button added (from Button 4 only) [PREVIOUSLY: BT disconnect only from User phone]
+
+8) Developoment Analytics:
+	- All Button Counters refined for Serial monitoring values (i.e. they look neat now !)
+	- BT mode passes values of all button counters on PROFILE A & all favourites saved on PROFILE B (for APP Interaction)
+
+~~~~~~~~~V0.1~~~~~~~~~~
+GPIO used: 26, 13, 14, 2, 21, 22, (4)
+
+Button Left: 26
+Button Right: 13
+Button NOT USED: 14
+Button Sleep/Wake/BT: 2
+SDA (OLED): 21
+SCL(OLED): 22
+4: Gnd (To prevent ESP from accidental wake from floating high)
+
+Button Features:
+Button Left: Prev message + Restart timer
+Button Right: Next message + Restart timer
+Button Sleep/Wake: Sleep + Wake + HOLD FOR 2 SECONDS for BT activate 
+
+Features:
+2 modes available: Learning Mode (on start/default), BT mode (for app connect)
+
+1 Auto Sleep after 6 seconds according to code [actual: 6.6 seconds]
+2 Timer resets after every button press(Except BT)
+3 BT mode is activated after holding button 4 for 2 seconds
+4 BT mode disables timer temporarily
+5 BT can get message of Button press count from ESP Server
+6 BT disconnect event goes back to button press state for keychain & timer starts too
+
+
+
+
+
+
+
+
+
+
+
+
+=========================================================================================================================
+
+ESP-32 SMART KEYCHAIN V0.3 (25_1_2021)
+
+Version Rejected: READ THIRUKKURAL.txt file caused very significant delays in moving to next message.
+
+=========================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+ESP-32 SMART KEYCHAIN V0.2 (25_1_2021)
+
+
+UPDATES:
+1) Button 14: Added as FAVOURITES BUTTON
+	-Fav button can toggle ON and OFF on same switch.
+	-Any message can be made Favourite (or removed) at any point.
+
+2) ANY BUTTON can WAKEUP keychain from Deep sleep.
+
+3) Fixed all TIMER related errors thereby eliminating SOFTWARE PC HARD RESET. Only resets available are:
+	- Deep Sleep Reset (which is default when ESP32 recovers from ULP and goes to main)
+	- Manual Restart button to restart keychain (if and when required)
+	- BT disconnect which refreshes BT connection and restarts.
+
+4) Out of bounds error corrected
+
+5) BT name changed to "SMART KEYCHAIN"
+
+6) Fixed Button Delays:
+	- All Buttons (left, right, favs, sleep on & wakeup from any button) refined to a 'USER LEVEL' (almost instantaneous)
+	- BT on made must be pressed and held for 2 seconds
+	- BT wake from same button
+
+7) BT disable button added (from Button 4 only) [PREVIOUSLY: BT disconnect only from User phone]
+
+8) Developoment Analytics:
+	- All Button Counters refined for Serial monitoring values (i.e. they look neat now !)
+	- BT mode passes values of all button counters on PROFILE A & all favourites saved on PROFILE B (for APP Interaction)
+
+9) Able to read from Thirukkural.txt text file and display on OLED display.
+
+
+~~~~~~~~~V0.1~~~~~~~~~~
+GPIO used: 26, 13, 14, 2, 21, 22, (4)
+
+Button Left: 26
+Button Right: 13
+Button NOT USED: 14
+Button Sleep/Wake/BT: 2
+SDA (OLED): 21
+SCL(OLED): 22
+4: Gnd (To prevent ESP from accidental wake from floating high)
+
+Button Features:
+Button Left: Prev message + Restart timer
+Button Right: Next message + Restart timer
+Button Sleep/Wake: Sleep + Wake + HOLD FOR 2 SECONDS for BT activate 
+
+Features:
+2 modes available: Learning Mode (on start/default), BT mode (for app connect)
+
+1 Auto Sleep after 6 seconds according to code [actual: 6.6 seconds]
+2 Timer resets after every button press(Except BT)
+3 BT mode is activated after holding button 4 for 2 seconds
+4 BT mode disables timer temporarily
+5 BT can get message of Button press count from ESP Server
+6 BT disconnect event goes back to button press state for keychain & timer starts too
+
+
+
+
+
+
+
+
+
+
+
+=========================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+ESP-32 SMART KEYCHAIN V0.1 (23_1_2021)
+
+
+GPIO used: 26, 13, 14, 2, 21, 22, (4)
+
+Button Left: 26
+Button Right: 13
+Button NOT USED: 14
+Button Sleep/Wake/BT: 2
+SDA (OLED): 21
+SCL(OLED): 22
+4: Gnd (To prevent ESP from accidental wake from floating high)
+
+Button Features:
+Button Left: Prev message + Restart timer
+Button Right: Next message + Restart timer
+Button Sleep/Wake: Sleep + Wake + HOLD FOR 2 SECONDS for BT activate 
+
+Features:
+2 modes available: Learning Mode (on start/default), BT mode (for app connect)
+
+1 Auto Sleep after 6 seconds according to code [actual: 6.6 seconds]
+2 Timer resets after every button press(Except BT)
+3 BT mode is activated after holding button 4 for 2 seconds
+4 BT mode disables timer temporarily
+5 BT can get message of Button press count from ESP Server
+6 BT disconnect event goes back to button press state for keychain & timer starts too

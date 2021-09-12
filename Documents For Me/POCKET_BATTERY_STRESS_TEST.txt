@@ -1,0 +1,82 @@
+										BATTERY STRESS TESTS
+
+1. SMART KEYCHAIN (BREADBOARD_3)
+
+TIME OF START:		2:25pm
+V. of Battery @ start:	4.14 V
+
+Time Period of ESP Wake:	6s
+Time Period of ESP Sleep:	5s
+Status @ start:			ESP erase flashed, Starting from Kural 1
+Kurals:				In english
+
+Description: The stress test is aimed at checking the BREADBOARD setup's power usage/battery performance. The ESP is flashed to new [i.e. it starts from Kural 1] condition and battery is
+added to the setup. Battery is recharged to full capacity and measured @ 4.14 V. The test program involves the ESP to display a kural and wait for 6 seconds before deep sleeping. Then it 
+sleeps for 5 seconds & wakes up. Here the VOLTAGE REGULATOR (LD33) WAS USED.
+
+RESULT:
+
+Kural reached:		965
+Stopped time:		5:23 pm
+Total time run:		~3 hours
+V. of Battery @ stop:	3.65 V
+Result Description:	very bad
+
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+2. SMART KEYCHAIN (BREADBOARD_3)
+
+TIME OF START:		5:43pm
+V. of Battery @ start:	4.09 V
+
+Time Period of ESP Wake:	6s
+Time Period of ESP Sleep:	5s
+Status @ start:			ESP erase flashed, Starting from Kural 1
+Kurals:				In english
+
+Description:
+	-Same as Test 1 except for 1 change
+	-LOW VOLTAGE REGULATOR (LD33) was removed
+	-Thus voltage regulators capacitors bypassed as well
+
+RESULT:
+
+Kural reached:		1330+323 (Completed 1 entire cycle + some)
+Stopped time:		Unknown 
+V. of Battery @ stop:	3.25 V
+Result Description:	Better than first run because less capacitors
+
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+3. SMART KEYCHAIN (BREADBOARD_2)
+
+TIME OF START:		4:45pm
+V. of Battery @ start:	4.14 V
+
+Time Period of ESP Wake:	5s
+Time Period of ESP Sleep:	5s
+Status @ start:			ESP erase flashed, Starting from Kural 1
+Kurals:				In tamil (as images)
+
+Description:
+	-Same as Test 2 except English kurals were replaced with Tamil Kural images (1-10 ONLY)
+
+RESULT:
+
+Kural reached:		1330+46 (Completed 1 entire cycle + some)
+Stopped time:		Unknown 
+V. of Battery @ stop:	3.3 V
+Result Description:	Little bad compared to Test 2 coz (maybe due to displaying images kurals)
+
+
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+3. SMART KEYCHAIN (DOT BOARD PROTOTYPE_1)
+
+YET TO !!!

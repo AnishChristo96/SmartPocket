@@ -1,0 +1,183 @@
+cd %userprofile%\Desktop\esp-idf\.....
+
+idf.py set-target esp32
+
+idf.py menuconfig
+
+\* Set SDK Configs 
+
+
+Admatic    tzdze04778
+ZTE-af2ed2    e4ca12af
+mqtt://test.mosquitto.org
+
+
+*\
+
+idf.py build
+
+idf.py -p [COM6 or whatever COM] -b [115200] flash
+
+idf.py -p [COM6 or whatever COM] monitor
+
+Ctrl+] \* To exit *\
+
+
+
+
+If IDF monitor fails shortly after the upload, or, if instead of the messages above, you see random garbage similar to what is given below,
+your board is likely using a 26 MHz crystal. Most development board designs use 40 MHz, so ESP-IDF uses this frequency as a default value.
+
+*Garbled output*
+If you have such a problem, do the following:
+
+Exit the monitor.
+
+Go back to menuconfig.
+
+Go to Component config –> ESP32-specific –> Main XTAL frequency, then change CONFIG_ESP32_XTAL_FREQ_SEL to 26 MHz.
+
+After that, build and flash the application again.
+
+
+
+
+To RESET the counter and run time array, erase the contents of flash memory using `idf.py erase_flash`, then upload the program again.
+
+
+
+LINKS:
+For button press:
+https://www.the-diy-life.com/multiple-push-buttons-on-one-arduino-input/
+
+Pins of ESP 32 (PWM):
+There are totally 39 digital Pins on the ESP32 out of which 34 can be used as GPIO and the remaining are input only pins.
+The device supports 18-channels for 12-bit ADC and 2-channel for 8-bit DAC.
+IT also has 16 channels for PWM signal generation and 10 GPIO pins supports capacitive touch features.
+
+ONLINE COMPILERS FOR DEBUGGING
+https://repl.it/languages/c
+
+https://randomnerdtutorials.com/esp32-pinout-reference-gpios/
+https://components101.com/microcontrollers/esp32-devkitc#:~:text=There%20are%20totally%2039%20digital,pins%20supports%20capacitive%20touch%20features.
+
+Deep Sleep Modes (Wake-up Sources):
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/sleep_modes.html#wakeup-sources
+
+Interface OLED Graphic Display Module with ESP32
+https://lastminuteengineers.com/oled-display-esp32-tutorial/
+
+Tutorial to Interface HX711 Balance Module With Load Cell
+https://www.instructables.com/How-to-Interface-HX711-Balance-Module-With-Load-Ce/
+
+Connected Cat Feeder Using a Strain Gauge and an ESP32
+https://www.instructables.com/Connected-Cat-Feeder-Using-a-Strain-Gauge-and-an-E/
+
+qMenuSystem
+https://github.com/qery/qMenuSystem
+
+ARDUINO MENU DESIGN With OLED-UI(USER INTERFACE)
+https://www.instructables.com/ARDUINO-MENU-DESIGN-With-OLED-UIUSER-INTERFACE/
+
+ESP32 Modules Now Support LittlevGL and μGFX
+https://www.espressif.com/en/news/ESP32_Modules_Now_Support_LittlevGL_and_%CE%BCGFX
+
+https://ugfx.io/
+
+cfGUI
+https://github.com/JF002/cfGUI
+
+ESP32 MQTT – Publish and Subscribe with Arduino IDE
+https://randomnerdtutorials.com/esp32-mqtt-publish-subscribe-arduino-ide/
+
+Converting Float to String and Character Array in a Few Simple Steps - Arduino
+https://www.instructables.com/Converting-Float-to-string-and-character-array-in-/#:~:text=dtostrf%20is%20a%20function%20that,for%20this%20function%20to%20work.
+
+what is dtostrf ?
+https://www.google.co.in/search?q=what+is+dtostrf+%3F&ie=UTF-8&oe=
+
+HOW TO CONNECT ESP 32F TO USB UART
+https://www.lab4iot.com/2019/07/14/tutorial-on-how-to-program-the-esp32-wroom-32-or-esp32f/
+
+HEX DECIMAL CONVERTER
+https://www.rapidtables.com/convert/number/hex-to-decimal.html?x=61
+
+How to Program an Attiny85 From an Arduino Uno
+https://www.instructables.com/How-to-Program-an-Attiny85-From-an-Arduino-Uno/
+
+Play a Tune From ATTINY85 When Motion Detected
+https://www.instructables.com/Play-a-Tune-From-ATTINY85-When-Motion-Detected/
+
+ATtiny85 PINTEREST
+https://in.pinterest.com/el84buzz/attiny85/
+
+EPAPER PINOUT & REFERENCES
+https://github.com/krzychb/esp-epaper-29-ws
+
+AT Tiny OLED
+https://www.youtube.com/watch?v=zYYM_8Znk3E
+
+MPMC Slides from slideshare LEARN
+https://www.slideshare.net/xavierpaulino/microcontroller-presentation-42673826
+https://www.kobakant.at/DIY/?cat=88
+https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjO4La2jOHuAhViJaYKHTxMBG4QFjARegQICxAC&url=https%3A%2F%2Fatmega32-avr.com%2Fattiny85-attiny45-and-attiny13-based-projects-list%2F&usg=AOvVaw195_T-KOdVjBF1LQ17gLtV
+
+
+https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
+
+Timer tiny
+https://www.instructables.com/Tiny-Timer-T2-for-short/
+
+Fridge Door Detector Alarm Tiny85
+https://www.instructables.com/Fridge-Door-Detector-Alarm/
+
+Vibratin Timekeeper Tiny85
+https://www.instructables.com/Vibrating-Timekeeper/
+
+ATtinySerial Monitor
+https://www.youtube.com/watch?v=9CX4i6rMXS8
+
+Custom Parts in Fritzing
+https://www.deviceplus.com/others/glossary/creating-custom-parts-fritzing/
+
+BenHeck ATtiny10 VERY IMP
+https://hackaday.com/tag/attiny10/
+
+Learn KiCad
+https://www.youtube.com/watch?v=-tN14xlWWmA
+
+Programming the ATtiny10
+http://www.technoblogy.com/show?1YQY
+
+IMPORTANT QUIZ
+https://www.gadgetronicx.com/quiz/
+
+ESP32 – Getting Battery charging level
+https://www.pangodream.es/esp32-getting-battery-charging-level
+
+Voltage Divider Circuit
+https://ohmslawcalculator.com/voltage-divider-calculator
+
+ESP32 Battery Charging Level
+https://www.pangodream.es/esp32-getting-battery-charging-level
+
+ESPNOW Datasheet
+file:///C:/Users/Anish/Downloads/esp-now_user_guide_en.pdf
+
+2.9 inch e-paper display Datasheet
+https://www.waveshare.com/w/upload/e/e6/2.9inch_e-Paper_Datasheet.pdf
+
+Epaper Study
+https://www.smartcity-displays.com/how-does-e-paper-work/#:~:text=The%20main%20advantages%20of%20electronic,rather%20than%20a%20computer%20screen. 	
+
+Advantages of Epaper
+https://www.google.co.in/search?q=advantage+of+e+paper+display&ie=UTF-8&oe=
+
+Smart Keychain Images
+https://www.google.co.in/search?q=smart+keychain+with+display&tbm=isch&ved=2ahUKEwj86qe15__uAhWIjksFHT4vBBQQ2-cCegQIABAA&oq=smart+keychain+with+display&gs_lcp=CgNpbWcQDFAAWABgvkVoAHAAeACAAQCIAQCSAQCYAQCqAQtnd3Mtd2l6LWltZw&sclient=img&ei=Nto0YPz3HYidrtoPvt6QoAE&bih=624&biw=1263&hl=en
+
+Re-using GPIOs in Esp32 GPIO 1 & GPIO3
+https://esp32.com/viewtopic.php?t=10016
+
+ESP-32 ADC Diagram
+https://randomnerdtutorials.com/esp32-adc-analog-read-arduino-ide/

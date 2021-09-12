@@ -1,0 +1,26 @@
+Adding custom fonts to E-paper Display NOT TAMIL
+https://kapusta.cc/2019/02/10/font2bytes/
+
+
+font2bytes
+https://github.com/ayoy/font2bytes
+
+Online Font Converter
+Convert TTF and WOFF fonts to C array LVGL
+https://lvgl.io/tools/fontconverter
+
+Online Font Converter V 5.3
+Convert TTF and WOFF fonts to C array
+https://lvgl.io/tools/font_conv_v5_3
+
+Tamil LOHIT FONT
+https://jrgraphix.net/r/Unicode/0B80-0BFF
+
+LOHIT Github
+https://github.com/thamizha/tamil-fonts/blob/master/fonts-installer/fontfiles/Lohit-Tamil.ttf
+
+Arduino Display Image & text HELPFUL IDEA BUT NOT ACTUAL SOLUTION
+https://www.youtube.com/watch?v=OPaCF-XJhqc
+
+Image to BITMAP Array converter
+https://javl.github.io/image2cpp/

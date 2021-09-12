@@ -1,0 +1,41 @@
+ESP32 Series
+Datasheet
+https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+
+ESP32­WROOM­32 ***************[ PAGE 20: PERIPHERAL SCHEMATICS]*******************
+Datasheet
+https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+
+ESP32
+Hardware Design Guidelines ***************[ PAGE 3: POWER SUPPLY]*******************
+https://www.espressif.com/sites/default/files/documentation/esp32_hardware_design_guidelines_en.pdf
+
+ESP32 BARE MODULE **************[PINOUT DIAGRAM]**************
+https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/08/esp32-pinout-chip-ESP-WROOM-32.png?quality=100&strip=all&ssl=1
+
+ESP32 WROOM32 DEVKIT V1 [DOIT or whatever] **************[CIRCUIT DIAGRAM]**************
+https://image.easyeda.com/histories/9fa842ee1ce945ad90175046232c7585.png
+
+phy_init: failed to load RF calibration data ************[ESPRESSIF FORUM]*****************
+https://esp32.com/viewtopic.php?t=4097
+
+STARTING WIFI TRIPS BROWNOUT ************[ESPRESSIF FORUM]*****************
+https://esp32.com/viewtopic.php?t=4908
+
+How to calculate capacitor to fix a brownout ************[STACK EXCHANGE]*****************
+https://electronics.stackexchange.com/questions/500039/how-to-calculate-capacitor-to-fix-a-brownout
+
+CP2102N requires a voltage divider on VBUS
+https://www.silabs.com/community/interface/knowledge-base.entry.html/2018/03/31/cp2102n_requiresav-NFly
+
+USB TTL [D SUN USB TO TTL/ INCLUSIVE OF CP2102] **************[CIRCUIT DIAGRAM]**************
+https://easyeda.com/normal/CP2102-a0fdef3ba3ae4264a1ac5861a05ecf3a
+
+5V Voltage Regulators
+https://jpralves.net/post/2015/05/19/5v-voltage-regulator.html#:~:text=The%20LM2940%20is%20from%20a,pinout%20than%20the%20previous%20two.
+
+Bluetooth Crash on Disconnect
+https://esp32.com/viewtopic.php?t=5085
+
+ESP32 WROOM32 Reset Functionality
+https://www.esp32.com/viewtopic.php?t=493

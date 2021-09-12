@@ -1,0 +1,477 @@
+case(1):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"1 Katavul Vaazhththu
+\nAkara Mudhala Ezhuththellaam Aadhi\nPakavan Mudhatre Ulaku", 6, NULL);break;}
+case(2):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"2 Katavul Vaazhththu
+\nKatradhanaal Aaya Payanenkol Vaalarivan\nNatraal Thozhaaar Enin", 6, NULL);break;}
+case(3):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"3 Katavul Vaazhththu
+\nMalarmisai Ekinaan Maanati Serndhaar\nNilamisai Neetuvaazh Vaar", 6, NULL);break;}
+case(4):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"4 Katavul Vaazhththu
+\nVentudhal Ventaamai Ilaanati Serndhaarkku\nYaantum Itumpai Ila", 6, NULL);break;}
+case(5):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"5 Katavul Vaazhththu
+\nIrulser Iruvinaiyum Seraa Iraivan\nPorulser Pukazhpurindhaar Maattu", 6, NULL);break;}
+case(6):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"6 Katavul Vaazhththu
+\nPorivaayil Aindhaviththaan Poidheer Ozhukka\nNerinindraar Neetuvaazh Vaar", 6, NULL);break;}
+case(7):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"7 Katavul Vaazhththu
+\nThanakkuvamai Illaadhaan Thaalserndhaark Kallaal\nManakkavalai Maatral Aridhu", 6, NULL);break;}
+case(8):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"8 Katavul Vaazhththu
+\nAravaazhi Andhanan Thaalserndhaark Kallaal\nPiravaazhi Neendhal Aridhu", 6, NULL);break;}
+case(9):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"9 Katavul Vaazhththu
+\nKolil Poriyin Kunamilave Enkunaththaan\nThaalai Vanangaath Thalai", 6, NULL);break;}
+case(10):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"10 Katavul Vaazhththu
+\nPiravip Perungatal Neendhuvar Neendhaar\nIraivan Atiseraa Thaar", 6, NULL);break;}
+case(11):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"11 2
+\nVaannindru Ulakam Vazhangi Varudhalaal\nThaanamizhdham Endrunarar Paatru", 6, NULL);break;}
+case(12):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"12 Vaansirappu
+\nThuppaarkkuth Thuppaaya Thuppaakkith Thuppaarkkuth\nThuppaaya Thooum Mazhai", 6, NULL);break;}
+case(13):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"13 Vaansirappu
+\nVinindru Poippin Virineer Viyanulakaththu\nUlnindru Utatrum Pasi", 6, NULL);break;}
+case(14):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"14 Vaansirappu
+\nErin Uzhaaar Uzhavar Puyalennum\nVaari Valangundrik Kaal", 6, NULL);break;}
+case(15):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"15 2
+\nKetuppadhooum Kettaarkkuch Chaarvaaimar Raange\nEtuppadhooum Ellaam Mazhai", 6, NULL);break;}
+case(16):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"16 Vaansirappu
+\nVisumpin Thuliveezhin Allaalmar Raange\nPasumpul Thalaikaanpu Aridhu", 6, NULL);break;}
+case(17):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"17 Vaansirappu
+\nNetungatalum Thanneermai Kundrum Thatindhezhili\nThaannalkaa Thaaki Vitin", 6, NULL);break;}
+case(18):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"18 Vaansirappu
+\nSirappotu Poosanai Sellaadhu Vaanam\nVarakkumel Vaanorkkum Eentu", 6, NULL);break;}
+case(19):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"19 Vaansirappu
+\nThaanam Thavamirantum Thangaa Viyanulakam\nVaanam Vazhangaa Thenin", 6, NULL);break;}
+case(20):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"20 Vaansirappu
+\nNeerindru Amaiyaadhu Ulakenin Yaaryaarkkum\nVaanindru Amaiyaadhu Ozhukku", 6, NULL);break;}
+case(21):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"21 Neeththaar Perumai
+\nOzhukkaththu Neeththaar Perumai Vizhuppaththu\nVentum Panuval Thunivu", 6, NULL);break;}
+case(22):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"22 Neeththaar Perumai
+\nThurandhaar Perumai Thunaikkoorin Vaiyaththu\nIrandhaarai Ennikkon Tatru", 6, NULL);break;}
+case(23):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"23 Neeththaar Perumai
+\nIrumai Vakaidherindhu Eentuaram Poontaar\nPerumai Pirangitru Ulaku", 6, NULL);break;}
+case(24):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"24 Neeththaar Perumai
+\nUranennum Thottiyaan Oraindhum Kaappaan\nVaranennum Vaippirkor Viththu", 6, NULL);break;}
+case(25):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"25 Neeththaar Perumai
+\nAindhaviththaan Aatral Akalvisumpu Laarkomaan\nIndhirane Saalung Kari", 6, NULL);break;}
+case(26):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"26 3
+\nSeyarkariya Seyvaar Periyar Siriyar\nSeyarkariya Seykalaa Thaar", 6, NULL);break;}
+case(27):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"27 Neeththaar Perumai
+\nSuvaioli Ooruosai Naatramendru Aindhin\nVakaidherivaan Katte Ulaku", 6, NULL);break;}
+case(28):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"28 Neeththaar Perumai
+\nNiraimozhi Maandhar Perumai Nilaththu\nMaraimozhi Kaatti Vitum", 6, NULL);break;}
+case(29):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"29 Neeththaar Perumai
+\nKunamennum Kundreri Nindraar Vekuli\nKanameyum Kaaththal Aridhu", 6, NULL);break;}
+case(30):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"30 3
+\nAndhanar Enpor Aravormar Revvuyir\nKkum Sendhanmai Poontozhuka Laan", 6, NULL);break;}
+case(31):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"31 4
+\nSirappu Eenum Selvamum Eenum\nAraththinooungu Aakkam Evano Uyirkku", 6, NULL);break;}
+case(32):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"32 4
+\nAraththinooungu Aakkamum Illai Adhanai\nMaraththalin Oongillai Ketu", 6, NULL);break;}
+case(33):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"33 Aran Valiyuruththal
+\nOllum Vakaiyaan Aravinai Ovaadhe\nSellumvaai Ellaanj Cheyal", 6, NULL);break;}
+case(34):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"34  all else is vain show
+\nManaththukkan Maasilan Aadhal Anaiththu\nAran Aakula Neera Pira", 6, NULL);break;}
+case(35):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"35 Aran Valiyuruththal
+\nAzhukkaaru Avaavekuli Innaachchol Naankum\nIzhukkaa Iyandradhu Aram", 6, NULL);break;}
+case(36):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"36  and at the dying hour she will be your undying friend
+\nAndrarivaam Ennaadhu Aranjeyka Matradhu\nPondrungaal Pondraath Thunai", 6, NULL);break;}
+case(37):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"37 4
+\nAraththaaru Ithuvena Ventaa Sivikai\nPoruththaanotu Oorndhaan Itai", 6, NULL);break;}
+case(38):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"38 Aran Valiyuruththal
+\nVeezhnaal Pataaamai Nandraatrin Aqdhoruvan\nVaazhnaal Vazhiyataikkum Kal", 6, NULL);break;}
+case(39):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"39 4
+\nAraththaan Varuvadhe Inpam Mar\nRellaam Puraththa Pukazhum Ila", 6, NULL);break;}
+case(40):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"40 Aran Valiyuruththal
+\nSeyarpaala Thorum Arane Oruvarku\nUyarpaala Thorum Pazhi", 6, NULL);break;}
+case(41):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"41 Ilvaazhkkai
+\nIlvaazhvaan Enpaan Iyalputaiya Moovarkkum\nNallaatrin Nindra Thunai", 6, NULL);break;}
+case(42):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"42 Ilvaazhkkai
+\nThurandhaarkkum Thuvvaa Dhavarkkum Irandhaarkkum\nIlvaazhvaan Enpaan Thunai", 6, NULL);break;}
+case(43):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"43 Ilvaazhkkai
+\nThenpulaththaar Theyvam Virundhokkal Thaanendraangu\nAimpulaththaaru Ompal Thalai", 6, NULL);break;}
+case(44):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"44 Ilvaazhkkai
+\nPazhiyanjip Paaththoon Utaiththaayin Vaazhkkai\nVazhiyenjal Egngnaandrum Il", 6, NULL);break;}
+case(45):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"45 Ilvaazhkkai
+\nAnpum Aranum Utaiththaayin Ilvaazhkkai\nPanpum Payanum Adhu", 6, NULL);break;}
+case(46):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"46 Ilvaazhkkai
+\nAraththaatrin Ilvaazhkkai Aatrin Puraththaatril\nPooip Peruva Thevan?", 6, NULL);break;}
+case(47):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"47 Ilvaazhkkai
+\nIyalpinaan Ilvaazhkkai Vaazhpavan Enpaan\nMuyalvaarul Ellaam Thalai", 6, NULL);break;}
+case(48):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"48 Ilvaazhkkai
+\nAatrin Ozhukki Aranizhukkaa Ilvaazhkkai\nNorpaarin Nonmai Utaiththu", 6, NULL);break;}
+case(49):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"49 Ilvaazhkkai
+\nAran Enap Pattadhe Ilvaazhkkai\nAqdhum Piranpazhippa Thillaayin Nandru", 6, NULL);break;}
+case(50):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"50 Ilvaazhkkai
+\nVaiyaththul Vaazhvaangu Vaazhpavan Vaanu�ryum\nTheyvaththul Vaikkap Patum", 6, NULL);break;}
+case(51):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"51 Vaazhkkaith Thunainalam
+\nManaikdhakka Maanputaiyal Aakiththar Kontaan\nValaththakkaal Vaazhkkaith Thunai", 6, NULL);break;}
+case(52):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"52 Vaazhkkaith Thunainalam
+\nManaimaatchi Illaalkan Illaayin Vaazhkkai\nEnaimaatchith Thaayinum Il", 6, NULL);break;}
+case(53):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"53 Vaazhkkaith Thunainalam
+\nIlladhen Illaval Maanpaanaal Ulladhen\nIllaval Maanaak Katai?", 6, NULL);break;}
+case(54):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"54 Vaazhkkaith Thunainalam
+\nPennin Perundhakka Yaavula Karpennum\nThinmaiun Taakap Perin", 6, NULL);break;}
+case(55):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"55 Vaazhkkaith Thunainalam
+\nTheyvam Thozhaaal Kozhunan Thozhudhezhuvaal\nPeyyenap Peyyum Mazhai", 6, NULL);break;}
+case(56):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"56 Vaazhkkaith Thunainalam
+\nTharkaaththuth Tharkontaar Penith Thakaisaandra\nSorkaaththuch Chorvilaal Pen", 6, NULL);break;}
+case(57):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"57 Vaazhkkaith Thunainalam
+\nSiraikaakkum Kaappevan Seyyum Makalir\nNiraikaakkum Kaappe Thalai", 6, NULL);break;}
+case(58):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"58 Vaazhkkaith Thunainalam
+\nPetraar Perinperuvar Pentir Perunjirappup\nPuththelir Vaazhum Ulaku", 6, NULL);break;}
+case(59):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"59 Vaazhkkaith Thunainalam
+\nPukazhpurindha Illilorkku Illai Ikazhvaarmun\nErupol Peetu Natai", 6, NULL);break;}
+case(60):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"60 6
+\nMangalam Enpa Manaimaatchi Matru\nAdhan Nankalam Nanmakkat Peru", 6, NULL);break;}
+case(61):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"61 Pudhalvaraip Perudhal
+\nPerumavatrul Yaamarivadhu Illai Arivarindha\nMakkatperu Alla Pira", 6, NULL);break;}
+case(62):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"62 Pudhalvaraip Perudhal
+\nEzhupirappum Theeyavai Theentaa Pazhipirangaap\nPanputai Makkat Perin", 6, NULL);break;}
+case(63):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"63 Pudhalvaraip Perudhal
+\nThamporul Enpadham Makkal Avarporul\nThamdham Vinaiyaan Varum", 6, NULL);break;}
+case(64):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"64 Pudhalvaraip Perudhal
+\nAmizhdhinum Aatra Inidhedham Makkal\nSirukai Alaaviya Koozh", 6, NULL);break;}
+case(65):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"65 Pudhalvaraip Perudhal
+\nMakkalmey Theental Utarkinpam Matru\nAvar Sorkettal Inpam Sevikku", 6, NULL);break;}
+case(66):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"66 Pudhalvaraip Perudhal
+\nKuzhal Inidhu Yaazhinidhu Enpadham\nMakkal Mazhalaichchol Kelaa Thavar", 6, NULL);break;}
+case(67):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"67 Pudhalvaraip Perudhal
+\nThandhai Makarkaatrum Nandri Avaiyaththu\nMundhi Iruppach Cheyal", 6, NULL);break;}
+case(68):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"68 Pudhalvaraip Perudhal
+\nThammindham Makkal Arivutaimai Maanilaththu\nMannuyirk Kellaam Inidhu", 6, NULL);break;}
+case(69):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"69 Pudhalvaraip Perudhal
+\nEendra Pozhudhin Peridhuvakkum Thanmakanaich\nChaandron Enakketta Thaai", 6, NULL);break;}
+case(70):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"70 Pudhalvaraip Perudhal
+\nMakandhandhaikku Aatrum Udhavi Ivandhandhai\nEnnotraan Kol Enum Sol", 6, NULL);break;}
+case(71):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"71 Anputaimai
+\nAnpirkum Unto Ataikkundhaazh Aarvalar\nPunkaneer Poosal Tharum", 6, NULL);break;}
+case(72):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"72 8
+\nAnpilaar Ellaam Thamakkuriyar Anputaiyaar\nEnpum Uriyar Pirarkku", 6, NULL);break;}
+case(73):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"73 Anputaimai
+\nAnpotu Iyaindha Vazhakkenpa Aaruyirkku\nEnpotu Iyaindha Thotarpu", 6, NULL);break;}
+case(74):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"74 Anputaimai
+\nAnpu Eenum Aarvam Utaimai\nAdhueenum Nanpu Ennum Naataach", 6, NULL);break;}
+case(75):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"75 Anputaimai
+\nAnputru Amarndha Vazhakkenpa Vaiyakaththu\nInputraar Eydhum Sirappu", 6, NULL);break;}
+case(76):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"76 Anputaimai
+\nAraththirke Anpusaar Penpa Ariyaar\nMaraththirkum Aqdhe Thunai", 6, NULL);break;}
+case(77):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"77 Anputaimai
+\nEnpi Ladhanai Veyilpolak Kaayume\nAnpi Ladhanai Aram", 6, NULL);break;}
+case(78):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"78 Anputaimai
+\nAnpakath Thillaa Uyirvaazhkkai Vanpaarkan\nVatral Marandhalirth Thatru", 6, NULL);break;}
+case(79):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"79 Anputaimai
+\nPuraththurup Pellaam Evanseyyum Yaakkai\nAkaththuruppu Anpi Lavarkku", 6, NULL);break;}
+case(80):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"80 Anputaimai
+\nAnpin Vazhiyadhu Uyirnilai Aqdhilaarkku\nEnpudhol Porththa Utampu", 6, NULL);break;}
+case(81):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"81 Virundhompal
+\nIrundhompi Ilvaazhva Thellaam Virundhompi\nVelaanmai Seydhar Poruttu", 6, NULL);break;}
+case(82):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"82 Virundhompal
+\nVirundhu Puraththadhaath Thaanuntal Saavaa\nMarundheninum Ventarpaar Randru", 6, NULL);break;}
+case(83):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"83 Virundhompal
+\nVaruvirundhu Vaikalum Ompuvaan Vaazhkkai\nParuvandhu Paazhpatudhal Indru", 6, NULL);break;}
+case(84):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"84 Virundhompal
+\nAkanamarndhu Seyyaal Uraiyum Mukanamarndhu\nNalvirundhu Ompuvaan Il", 6, NULL);break;}
+case(85):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"85 Virundhompal
+\nViththum Italventum Kollo Virundhompi\nMichchil Misaivaan Pulam", 6, NULL);break;}
+case(86):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"86 Virundhompal
+\nSelvirundhu Ompi Varuvirundhu Paarththiruppaan\nNalvarundhu Vaanath Thavarkku", 6, NULL);break;}
+case(87):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"87 9
+\nInaiththunaith Thenpadhon Rillai Virundhin\nThunaiththunai Velvip Payan", 6, NULL);break;}
+case(88):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"88 Virundhompal
+\nParindhompip Patratrem Enpar Virundhompi\nVelvi Thalaippataa Thaar", 6, NULL);break;}
+case(89):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"89 Virundhompal
+\nUtaimaiyul Inmai Virundhompal Ompaa\nMatamai Matavaarkan Untu", 6, NULL);break;}
+case(90):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"90 Virundhompal
+\nMoppak Kuzhaiyum Anichcham Mukandhirindhu\nNokkak Kuzhaiyum Virundhu", 6, NULL);break;}
+case(91):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"91 Iniyavaikooral
+\nInsolaal Eeram Alaiip Patiruilavaam\nSemporul Kantaarvaaich Chol", 6, NULL);break;}
+case(92):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"92 Iniyavaikooral
+\nAkanamarndhu Eedhalin Nandre Mukanamarndhu\nInsolan Aakap Perin", 6, NULL);break;}
+case(93):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"93 Iniyavaikooral
+\nMukaththaan Amarndhuinidhu Nokki Akaththaanaam\nInso Linadhe Aram", 6, NULL);break;}
+case(94):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"94 Iniyavaikooral
+\nThunpurooum Thuvvaamai Illaakum Yaarmaattum\nInpurooum Inso Lavarkku", 6, NULL);break;}
+case(95):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"95 10
+\nPanivutaiyan Insolan Aadhal Oruvarku\nAniyalla Matrup Pira", 6, NULL);break;}
+case(96):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"96 Iniyavaikooral
+\nAllavai Theya Aramperukum Nallavai\nNaati Iniya Solin", 6, NULL);break;}
+case(97):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"97 Iniyavaikooral
+\nNayan Eendru Nandri Payakkum\nPayaneendru Panpin Thalaippiriyaach Chol", 6, NULL);break;}
+case(98):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"98 Iniyavaikooral
+\nSirumaiyul Neengiya Insol Marumaiyum\nImmaiyum Inpam Tharum", 6, NULL);break;}
+case(99):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"99 Iniyavaikooral
+\nInsol Inidheendral Kaanpaan Evankolo\nVansol Vazhangu Vadhu?", 6, NULL);break;}
+case(100):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"100 Iniyavaikooral
+\nIniya Ulavaaka Innaadha Kooral\nKaniiruppak Kaaikavarn Thatru", 6, NULL);break;}
+case(101):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"101 Seynnandri Aridhal
+\nSeyyaamal Seydha Udhavikku Vaiyakamum\nVaanakamum Aatral Aridhu", 6, NULL);break;}
+case(102):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"102 Seynnandri Aridhal
+\nKaalaththi Naarseydha Nandri Siridheninum\nGnaalaththin Maanap Peridhu", 6, NULL);break;}
+case(103):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"103 Seynnandri Aridhal
+\nPayandhookkaar Seydha Udhavi Nayandhookkin\nNanmai Katalin Peridhu", 6, NULL);break;}
+case(104):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"104 Seynnandri Aridhal
+\nThinaiththunai Nandri Seyinum Panaiththunaiyaak\nKolvar Payandheri Vaar", 6, NULL);break;}
+case(105):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"105 11
+\nUdhavi Varaiththandru Udhavi Udhavi\nSeyappattaar Saalpin Varaiththu", 6, NULL);break;}
+case(106):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"106 Seynnandri Aridhal
+\nMaravarka Maasatraar Kenmai Thuravarka\nThunpaththul Thuppaayaar Natpu", 6, NULL);break;}
+case(107):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"107 Seynnandri Aridhal
+\nEzhumai Ezhupirappum Ulluvar Thangan\nVizhuman Thutaiththavar Natpu", 6, NULL);break;}
+case(108):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"108 11
+\nNandri Marappadhu Nandrandru Nandralladhu\nAndre Marappadhu Nandru", 6, NULL);break;}
+case(109):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"109 Seynnandri Aridhal
+\nKondranna Innaa Seyinum Avarseydha\nOndrunandru Ullak Ketum", 6, NULL);break;}
+case(110):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"110 11
+\nEnnandri Kondraarkkum Uyvuntaam Uyvillai\nSeynnandri Kondra Makarku", 6, NULL);break;}
+case(111):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"111 Natuvu Nilaimai
+\nThakudhi Enavondru Nandre Pakudhiyaal\nPaarpattu Ozhukap Perin", 6, NULL);break;}
+case(112):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"112 Natuvu Nilaimai
+\nSeppam Utaiyavan Aakkanj Chidhaivindri\nEchchaththir Kemaappu Utaiththu", 6, NULL);break;}
+case(113):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"113 Natuvu Nilaimai
+\nNandre Tharinum Natuvikandhaam Aakkaththai\nAndre Yozhiya Vital", 6, NULL);break;}
+case(114):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"114 Natuvu Nilaimai
+\nThakkaar Thakavilar Enpadhu Avaravar\nEchchaththaar Kaanap Patum", 6, NULL);break;}
+case(115):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"115 12
+\nKetum Perukkamum Illalla Nenjaththuk\nKotaamai Saandrork Kani", 6, NULL);break;}
+case(116):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"116 Natuvu Nilaimai
+\nKetuvalyaan Enpadhu Arikadhan Nenjam\nNatuvoreei Alla Seyin", 6, NULL);break;}
+case(117):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"117 Natuvu Nilaimai
+\nKetuvaaka Vaiyaadhu Ulakam Natuvaaka\nNandrikkan Thangiyaan Thaazhvu", 6, NULL);break;}
+case(118):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"118 Natuvu Nilaimai
+\nSamanseydhu Seerdhookkung Kolpol Amaindhorupaal\nKotaamai Saandrork Kani", 6, NULL);break;}
+case(119):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"119 Natuvu Nilaimai
+\nSorkottam Illadhu Seppam Orudhalaiyaa\nUtkottam Inmai Perin", 6, NULL);break;}
+case(120):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"120 Natuvu Nilaimai
+\nVaanikam Seyvaarkku Vaanikam Penip\nPiravum Thamapol Seyin", 6, NULL);break;}
+case(121):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"121 13
+\nAtakkam Amararul Uykkum Atangaamai\nAarirul Uyththu Vitum", 6, NULL);break;}
+case(122):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"122 13
+\nKaakka Porulaa Atakkaththai Aakkam\nAdhaninooung Killai Uyirkku", 6, NULL);break;}
+case(123):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"123 Atakkamutaimai
+\nSerivarindhu Seermai Payakkum Arivarindhu\nAatrin Atangap Perin", 6, NULL);break;}
+case(124):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"124 Atakkamutaimai
+\nNilaiyin Thiriyaadhu Atangiyaan Thotram\nMalaiyinum Maanap Peridhu", 6, NULL);break;}
+case(125):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"125 13
+\nEllaarkkum Nandraam Panidhal Avarullum\nSelvarkke Selvam Thakaiththu", 6, NULL);break;}
+case(126):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"126 Atakkamutaimai
+\nOrumaiyul Aamaipol Aindhatakkal Aatrin\nEzhumaiyum Emaap Putaiththu", 6, NULL);break;}
+case(127):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"127 13
+\nYaakaavaa Raayinum Naakaakka Kaavaakkaal\nSokaappar Sollizhukkup Pattu", 6, NULL);break;}
+case(128):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"128 Atakkamutaimai
+\nOndraanun Theechchol Porutpayan Untaayin\nNandraakaa Thaaki Vitum", 6, NULL);break;}
+case(129):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"129 Atakkamutaimai
+\nTheeyinaar Suttapun Ullaarum Aaraadhe\nNaavinaar Sutta Vatu", 6, NULL);break;}
+case(130):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"130 Atakkamutaimai
+\nKadhangaaththuk Katratangal Aatruvaan Sevvi\nArampaarkkum Aatrin Nuzhaindhu", 6, NULL);break;}
+case(131):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"131 Ozhukkamutaimai
+\nOzhukkam Vizhuppan Tharalaan Ozhukkam\nUyirinum Ompap Patum", 6, NULL);break;}
+case(132):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"132 14
+\nParindhompik Kaakka Ozhukkam Therindhompith\nTherinum Aqdhe Thunai", 6, NULL);break;}
+case(133):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"133 Ozhukkamutaimai
+\nOzhukkam Utaimai Kutimai Izhukkam\nIzhindha Pirappaai Vitum", 6, NULL);break;}
+case(134):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"134 14
+\nMarappinum Oththuk Kolalaakum Paarppaan\nPirappozhukkang Kundrak Ketum", 6, NULL);break;}
+case(135):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"135 Ozhukkamutaimai
+\nAzhukkaa Rutaiyaankan Aakkampondru Illai\nOzhukka Milaankan Uyarvu", 6, NULL);break;}
+case(136):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"136 Ozhukkamutaimai
+\nOzhukkaththin Olkaar Uravor Izhukkaththin\nEdham Patupaak Karindhu", 6, NULL);break;}
+case(137):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"137 14
+\nOzhukkaththin Eydhuvar Menmai Izhukkaththin\nEydhuvar Eydhaap Pazhi", 6, NULL);break;}
+case(138):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"138 14
+\nNandrikku Viththaakum Nallozhukkam Theeyozhukkam\nEndrum Itumpai Tharum", 6, NULL);break;}
+case(139):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"139 Ozhukkamutaimai
+\nOzhukka Mutaiyavarkku Ollaave Theeya\nVazhukkiyum Vaayaar Solal", 6, NULL);break;}
+case(140):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"140 Ozhukkamutaimai
+\nUlakaththotu Otta Ozhukal Palakatrum\nKallaar Arivilaa Thaar", 6, NULL);break;}
+case(141):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"141 Piranil Vizhaiyaamai
+\nPiranporulaal Pettozhukum Pedhaimai Gnaalaththu\nAramporul Kantaarkan Il", 6, NULL);break;}
+case(142):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"142 Piranil Vizhaiyaamai
+\nArankatai Nindraarul Ellaam Pirankatai\nNindraarin Pedhaiyaar Il", 6, NULL);break;}
+case(143):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"143 Piranil Vizhaiyaamai
+\nVilindhaarin Verallar Mandra Thelindhaaril\nTheemai Purindhu Ozhuku Vaar", 6, NULL);break;}
+case(144):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"144 Piranil Vizhaiyaamai
+\nEnaiththunaiyar Aayinum Ennaam Thinaiththunaiyum\nTheraan Piranil Pukal", 6, NULL);break;}
+case(145):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"145 Piranil Vizhaiyaamai
+\nElidhena Illirappaan Eydhumenj Gnaandrum\nViliyaadhu Nirkum Pazhi", 6, NULL);break;}
+case(146):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"146 15
+\nPakaipaavam Achcham Pazhiyena Naankum\nIkavaavaam Illirappaan Kan", 6, NULL);break;}
+case(147):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"147 Piranil Vizhaiyaamai
+\nAraniyalaan Ilvaazhvaan Enpaan Piraniyalaal\nPenmai Nayavaa Thavan", 6, NULL);break;}
+case(148):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"148 Piranil Vizhaiyaamai
+\nPiranmanai Nokkaadha Peraanmai Saandrorkku\nAranondro Aandra Vozhukku", 6, NULL);break;}
+case(149):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"149 Piranil Vizhaiyaamai
+\nNalakkuriyaar Yaarenin Naamaneer Vaippin\nPirarkkuriyaal Tholdhoyaa Thaar", 6, NULL);break;}
+case(150):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"150 Piranil Vizhaiyaamai
+\nAranvaraiyaan Alla Seyinum Piranvaraiyaal\nPenmai Nayavaamai Nandru", 6, NULL);break;}
+case(151):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"151 Poraiyutaimai
+\nAkazhvaaraith Thaangum Nilampolath Thammai\nIkazhvaarp Poruththal Thalai", 6, NULL);break;}
+case(152):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"152 16
+\nPoruththal Irappinai Endrum Adhanai\nMaraththal Adhaninum Nandru", 6, NULL);break;}
+case(153):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"153 Poraiyutaimai
+\nInmaiyul Inmai Virundhoraal Vanmaiyul\nVanmai Matavaarp Porai", 6, NULL);break;}
+case(154):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"154 Poraiyutaimai
+\nNiraiyutaimai Neengaamai Ventin Poraiyutaimai\nPotri Yozhukap Patum", 6, NULL);break;}
+case(155):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"155 Poraiyutaimai
+\nOruththaarai Ondraaka Vaiyaare Vaippar\nPoruththaaraip Ponpor Podhindhu", 6, NULL);break;}
+case(156):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"156 Poraiyutaimai
+\nOruththaarkku Orunaalai Inpam Poruththaarkkup\nPondrun Thunaiyum Pukazh", 6, NULL);break;}
+case(157):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"157 Poraiyutaimai
+\nThiranalla Tharpirar Seyyinum Nonondhu\nAranalla Seyyaamai Nandru", 6, NULL);break;}
+case(158):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"158 Poraiyutaimai
+\nMikudhiyaan Mikkavai Seydhaaraith Thaandham\nThakudhiyaan Vendru Vital", 6, NULL);break;}
+case(159):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"159 Poraiyutaimai
+\nThurandhaarin Thooimai Utaiyar Irandhaarvaai\nInnaachchol Norkir Pavar", 6, NULL);break;}
+case(160):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"160 Poraiyutaimai
+\nUnnaadhu Norpaar Periyar Pirarsollum\nInnaachchol Norpaarin Pin", 6, NULL);break;}
+case(161):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"161 Azhukkaaraamai
+\nOzhukkaaraak Kolka Oruvandhan Nenjaththu\nAzhukkaaru Ilaadha Iyalpu", 6, NULL);break;}
+case(162):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"162 Azhukkaaraamai
+\nVizhuppetrin Aqdhoppadhu Illaiyaar Maattum\nAzhukkaatrin Anmai Perin", 6, NULL);break;}
+case(163):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"163 Azhukkaaraamai
+\nAranaakkam Ventaadhaan Enpaan Piranaakkam\nPenaadhu Azhukkarup Paan", 6, NULL);break;}
+case(164):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"164 Azhukkaaraamai
+\nAzhukkaatrin Allavai Seyyaar Izhukkaatrin\nEdham Patupaakku Arindhu", 6, NULL);break;}
+case(165):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"165 Azhukkaaraamai
+\nAzhukkaaru Utaiyaarkku Adhusaalum Onnaar\nVazhukka�yum Keteen Padhu", 6, NULL);break;}
+case(166):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"166 Azhukkaaraamai
+\nKotuppadhu Azhukkaruppaan Sutram Utuppadhooum\nUnpadhooum Indrik Ketum", 6, NULL);break;}
+case(167):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"167 Azhukkaaraamai
+\nAvviththu Azhukkaaru Utaiyaanaich Cheyyaval\nThavvaiyaik Kaatti Vitum", 6, NULL);break;}
+case(168):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"168 Azhukkaaraamai
+\nAzhukkaaru Enaoru Paavi Thiruchchetruth\nTheeyuzhi Uyththu Vitum", 6, NULL);break;}
+case(169):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"169 Azhukkaaraamai
+\nAvviya Nenjaththaan Aakkamum Sevviyaan\nKetum Ninaikkap Patum", 6, NULL);break;}
+case(170):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"170 17
+\nAzhukkatru Akandraarum Illai Aqdhuillaar\nPerukkaththil Theerndhaarum Il", 6, NULL);break;}
+case(171):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"171 Veqkaamai
+\nNatuvindri Nanporul Veqkin Kutipondrik\nKutramum Aange Tharum", 6, NULL);break;}
+case(172):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"172 Veqkaamai
+\nPatupayan Veqkip Pazhippatuva Seyyaar\nNatuvanmai Naanu Pavar", 6, NULL);break;}
+case(173):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"173 Veqkaamai
+\nSitrinpam Veqki Aranalla Seyyaare\nMatrinpam Ventu Pavar", 6, NULL);break;}
+case(174):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"174 Veqkaamai
+\nIlamendru Veqkudhal Seyyaar Pulamvendra\nPunmaiyil Kaatchi Yavar", 6, NULL);break;}
+case(175):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"175 Veqkaamai
+\nAqki Akandra Arivennaam Yaarmaattum\nVeqki Veriya Seyin", 6, NULL);break;}
+case(176):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"176 Veqkaamai
+\nArulveqki Aatrinkan Nindraan Porulveqkip\nPollaadha Soozhak Ketum", 6, NULL);break;}
+case(177):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"177 Veqkaamai
+\nVentarka Veqkiyaam Aakkam Vilaivayin\nMaantar Karidhaam Payan Payanila Sollaamai
+\nPallaar Muniyap Payanila Solluvaan\nEllaarum Ellap Patum Theevinaiyachcham
+\nArungetan Enpadhu Arika Marungotith\nTheevinai Seyyaan Enin", 6, NULL);break;}
+case(178):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"178 Veqkaamai
+\nAqkaamai Selvaththirku Yaadhenin Veqkaamai\nVentum Pirankaip Porul Veqkaamai
+\nIraleenum Ennaadhu Veqkin Viraleenum\nVentaamai Ennunj Cherukku", 6, NULL);break;}
+case(179):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"179 Veqkaamai
+\nAranarindhu Veqkaa Arivutaiyaarch Cherum\nThiranarin Thaange Thiru", 6, NULL);break;}
+case(180):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"180 Veqkaamai
+\nIraleenum Ennaadhu Veqkin Viraleenum\nVentaamai Ennunj Cherukku", 6, NULL);break;}
+case(181):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"181 Purangooraamai
+\nArangooraan Alla Seyinum Oruvan\nPurangooraan Endral Inidhu", 6, NULL);break;}
+case(182):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"182 Purangooraamai
+\nAranazheei Allavai Seydhalin Theedhe\nPuranazheeip Poiththu Nakai", 6, NULL);break;}
+case(183):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"183 Purangooraamai
+\nPurangoorip Poiththuyir Vaazhdhalin Saadhal\nArangootrum Aakkath Tharum", 6, NULL);break;}
+case(184):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"184 Purangooraamai
+\nKannindru Kannarach Chollinum Sollarka\nMunnindru Pinnokkaach Chol", 6, NULL);break;}
+case(185):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"185 Purangooraamai
+\nAranjollum Nenjaththaan Anmai Puranjollum\nPunmaiyaar Kaanap Patum", 6, NULL);break;}
+case(186):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"186 Purangooraamai
+\nPiranpazhi Kooruvaan Thanpazhi Yullum\nThirandherindhu Koorap Patum", 6, NULL);break;}
+case(187):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"187 Purangooraamai
+\nPakachchollik Kelirp Pirippar Nakachcholli\nNatpaatal Thetraa Thavar", 6, NULL);break;}
+case(188):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"188 Purangooraamai
+\nThunniyaar Kutramum Thootrum Marapinaar\nEnnaikol Edhilaar Maattu", 6, NULL);break;}
+case(189):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"189 Purangooraamai
+\nArannokki Aatrungol Vaiyam Purannokkip\nPunsol Uraippaan Porai Payanila Sollaamai
+\nSeermai Sirappotu Neengum Payanila\nNeermai Yutaiyaar Solin Eekai
+\nInnaadhu Irakkap Patudhal Irandhavar\nInmukang Kaanum Alavu Pulaanmaruththal
+\nUnnaamai Ventum Pulaaal Piridhondran\nPunnadhu Unarvaarp Perin", 6, NULL);break;}
+case(190):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"190 Purangooraamai
+\nEdhilaar Kutrampol Thangutrang Kaankirpin\nTheedhunto Mannum Uyirkku", 6, NULL);break;}
+case(191):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"191 Payanila Sollaamai
+\nPallaar Muniyap Payanila Solluvaan\nEllaarum Ellap Patum Eekai
+\nInnaadhu Irakkap Patudhal Irandhavar\nInmukang Kaanum Alavu Pulaanmaruththal
+\nAvisorin Thaayiram Vettalin Ondran\nUyirsekuth Thunnaamai Nandru", 6, NULL);break;}
+case(192):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"192 Payanila Sollaamai
+\nPayanila Pallaarmun Sollal Nayanila\nNattaarkan Seydhalir Reedhu", 6, NULL);break;}
+case(193):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"193 Payanila Sollaamai
+\nNayanilan Enpadhu Sollum Payanila\nPaarith Thuraikkum Urai Theevinaiyachcham
+\nTheevinaiyaar Anjaar Vizhumiyaar Anjuvar\nTheevinai Ennum Serukku Theevinaiyachcham
+\nMarandhum Piranketu Soozharka Soozhin\nAranjoozham Soozhndhavan Ketu", 6, NULL);break;}
+case(194):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"194 Payanila Sollaamai
+\nNayansaaraa Nanmaiyin Neekkum Payansaaraap\nPanpilsol Pallaa Rakaththu Payanila Sollaamai
+\nPayanil Sol Paaraattu Vaanai\nMakanenal Makkat Padhati Yenal Eekai
+\nAatruvaar Aatral Pasiaatral Appasiyai\nMaatruvaar Aatralin Pin", 6, NULL);break;}
+case(195):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"195 Payanila Sollaamai
+\nSeermai Sirappotu Neengum Payanila\nNeermai Yutaiyaar Solin Eekai
+\nSaadhalin Innaadha Thillai Inidhadhooum\nEedhal Iyaiyaak Katai Pulaanmaruththal
+\nThannoon Perukkarkuth Thaanpiridhu Oonunpaan\nEngnganam Aalum Arul? Pulaanmaruththal
+\nPataikontaar Nenjampol Nannookkaadhu Ondran\nUtalsuvai Untaar Manam", 6, NULL);break;}
+case(196):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"196 Payanila Sollaamai
+\nPayanil Sol Paaraattu Vaanai\nMakanenal Makkat Padhati Yenal Eekai
+\nPaaththoon Mareei Yavanaip Pasiyennum\nTheeppini Theental Aridhu Arulutaimai
+\nValiyaarmun Thannai Ninaikka Thaan\nThannin Meliyaarmel Sellu Mitaththu", 6, NULL);break;}
+case(197):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"197 20
+\nNayanila Sollinunj Cholluka Saandror\nPayanila Sollaamai Nandru", 6, NULL);break;}
+case(198):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"198 Payanila Sollaamai
+\nArumpayan Aayum Arivinaar Sollaar\nPerumpayan Illaadha Sol Oppuravaridhal
+\nItanil Paruvaththum Oppuravirku Olkaar\nKatanari Kaatchi Yavar Pukazh
+\nNilavarai Neelpukazh Aatrin Pulavaraip\nPotraadhu Puththel Ulaku", 6, NULL);break;}
+case(199):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"199 Payanila Sollaamai
+\nPoruldheerndha Pochchaandhunj Chollaar Maruldheerndha\nMaasaru Kaatchi Yavar", 6, NULL);break;}
+case(200):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"200 Payanila Sollaamai
+\nSolluka Sollir Payanutaiya Sollarka\nSollir Payanilaach Chol Thavam
+\nOnnaarth Theralum Uvandhaarai Aakkalum\nEnnin Thavaththaan Varum", 6, NULL);break;}
+case(201):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"201 Theevinaiyachcham
+\nTheevinaiyaar Anjaar Vizhumiyaar Anjuvar\nTheevinai Ennum Serukku Oppuravaridhal
+\nThaalaatrith Thandha Porulellaam Thakkaarkku\nVelaanmai Seydhar Poruttu Eekai
+\nIraththalin Innaadhu Mandra Nirappiya\nThaame Thamiyar Unal 27
+\nThavamum Thavamutaiyaarkku Aakum Adhanai\nAqdhilaar Merkol Vadhu", 6, NULL);break;}
+case(202):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"202 Theevinaiyachcham
+\nTheeyavai Theeya Payaththalaal Theeyavai\nTheeyinum Anjap Patum Arulutaimai
+\nArutchelvam Selvaththul Selvam Porutchelvam\nPooriyaar Kannum Ula Arulutaimai
+\nMannuyir Ompi Arulaalvaarkku Illenpa\nThannuyir Anjum Vinai", 6, NULL);break;}
+case(203):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"203 Theevinaiyachcham
+\nArivinul Ellaan Thalaiyenpa Theeya\nSeruvaarkkum Seyyaa Vital 27
+\nThavanj Cheyvaar Thangarumanj Cheyvaarmar\nRallaar Avanjeyvaar Aasaiyut Pattu", 6, NULL);break;}
+case(204):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"204 Theevinaiyachcham
+\nMarandhum Piranketu Soozharka Soozhin\nAranjoozham Soozhndhavan Ketu", 6, NULL);break;}
+case(205):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"205 Theevinaiyachcham
+\nIlan Endru Theeyavai Seyyarka\nSeyyin Ilanaakum Matrum Peyarththu Arulutaimai
+\nNallaatraal Naati Arulaalka Pallaatraal\nTherinum Aqdhe Thunai", 6, NULL);break;}
+case(206):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"206 Theevinaiyachcham
+\nTheeppaala Thaanpirarkan Seyyarka Noippaala\nThannai Atalventaa Thaan Arulutaimai
+\nArutchelvam Selvaththul Selvam Porutchelvam\nPooriyaar Kannum Ula  for them there is no change
+\nPorulatraar Pooppar Orukaal Arulatraar\nAtraarmar Raadhal Aridhu", 6, NULL);break;}
+case(207):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"207 Theevinaiyachcham
+\nEnaippakai Yutraarum Uyvar Vinaippakai\nVeeyaadhu Pinsendru Atum Theevinaiyachcham
+\nTheeyavai Seydhaar Ketudhal Nizhaldhannai\nVeeyaadhu Atiurain Thatru Oppuravaridhal
+\nNayanutaiyaan Nalkoorndhaa Naadhal Seyumneera\nSeyyaadhu Amaikalaa Vaaru Arulutaimai
+\nTherulaadhaan Meypporul Kantatraal Therin\nArulaadhaan Seyyum Aram", 6, NULL);break;}
+case(208):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"208 Theevinaiyachcham
+\nTheeyavai Seydhaar Ketudhal Nizhaldhannai\nVeeyaadhu Atiurain Thatru Oppuravaridhal
+\nOppuravi Naalvarum Ketenin Aqdhoruvan\nVitrukkol Thakka Thutaiththu", 6, NULL);break;}
+case(209):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"209 Theevinaiyachcham
+\nThannaiththaan Kaadhala Naayin Enaiththondrum\nThunnarka Theevinaip Paal Pulaanmaruththal
+\nUnnaamai Ventum Pulaaal Piridhondran\nPunnadhu Unarvaarp Perin 27
+\nThavanj Cheyvaar Thangarumanj Cheyvaarmar\nRallaar Avanjeyvaar Aasaiyut Pattu", 6, NULL);break;}
+case(210):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"210 Theevinaiyachcham
+\nArungetan Enpadhu Arika Marungotith\nTheevinai Seyyaan Enin Pukazh
+\nOndraa Ulakaththu Uyarndha Pukazhallaal\nPondraadhu Nirpadhon Ril Pulaanmaruththal
+\nAvisorin Thaayiram Vettalin Ondran\nUyirsekuth Thunnaamai Nandru Thavam
+\nOnnaarth Theralum Uvandhaarai Aakkalum\nEnnin Thavaththaan Varum", 6, NULL);break;}
+case(211):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"211 Oppuravaridhal
+\nKaimmaaru Ventaa Katappaatu Maarimaattu\nEn Aatrung Kollo Ulaku Pulaanmaruththal
+\nAvisorin Thaayiram Vettalin Ondran\nUyirsekuth Thunnaamai Nandru Thavam
+\nVentiya Ventiyaang Keydhalaal Seydhavam\nEentu Muyalap Patum", 6, NULL);break;}
+case(212):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"212 Oppuravaridhal
+\nThaalaatrith Thandha Porulellaam Thakkaarkku\nVelaanmai Seydhar Poruttu Pukazh
+\nVasaiyozhiya Vaazhvaare Vaazhvaar Isaiyozhiya\nVaazhvaare Vaazhaa Thavar Vaaimai
+\nPoimaiyum Vaaimai Yitaththa Puraidheerndha\nNanmai Payakkum Enin Nilaiyaamai
+\nKutampai Thaniththu Ozhiyap Pulparan\nThatre Utampotu Uyiritai Natpu 35
+\nThalaippattaar Theerath Thurandhaar Mayangi\nValaippattaar Matrai Yavar", 6, NULL);break;}
+case(213):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"213 Oppuravaridhal
+\nPuththe Lulakaththum Eentum Peralaridhe\nOppuravin Nalla Pira Pukazh
+\nVasaiyilaa Vanpayan Kundrum Isaiyilaa\nYaakkai Poruththa Nilam Vaaimai
+\nPoiyaamai Anna Pukazhillai Eyyaamai\nEllaa Aramun Tharum Innaaseyyaamai
+\nKaruththuinnaa Seydhavak Kannum Maruththinnaa\nSeyyaamai Maasatraar Kol", 6, NULL);break;}
+case(214):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"214 Oppuravaridhal
+\nOththa Tharavon Uyirvaazhvaan Matraiyaan\nSeththaarul Vaikkap Patum", 6, NULL);break;}
+case(215):{xTaskCreate(&task_ssd1306_display_text, "ssd1306_display_text",  2048, (void *)"215 Oppuravaridhal
+\nOoruni Neernirain Thatre Ulakavaam\nPerari Vaalan Thiru", 6, NULL);break;}
