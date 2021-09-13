@@ -1,0 +1,8 @@
+menu "Admatic Config"
+
+    config ENABLE_DEBUG_MODE
+        bool "Enable Debug Mode"
+        help
+            If this config item is set, BLE will start on start and physical buttons won't work.
+
+endmenu
