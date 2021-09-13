@@ -1,0 +1,17 @@
+{
+  "name": "keychain",
+  "version": "0.0.1",
+  "private": true,
+  "volta": {
+    "node": "14.15.4",
+    "yarn": "1.22.10"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
