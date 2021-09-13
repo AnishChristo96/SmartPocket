@@ -1,0 +1,8 @@
+Now that you have an executable file, you can use it to create your own fonts to work with Adafruit GFX lib.
+So, if we suppose that you already have a .ttf file with your favorite fonts, jump to the command prompt and type:
+
+./fontconvert yourfonts.ttf 9 > yourfonts9pt7b.h
+You can read more details at: learn.adafruit.
+
+Taraaaaaammm !! you've just created your new font header file. Put it inside the "Fonts" folder,
+grab a cup of coffee and start playing with your Arduino (or whatever else ....)+ display module project.

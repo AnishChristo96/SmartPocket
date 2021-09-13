@@ -1,0 +1,26 @@
+magick convert -background lightblue -fill blue -font Candice -pointsize 72 label:Anthony label.gif
+
+magick convert -background lightblue -fill blue -pointsize 72 label:Anthony label.gif
+
+magick convert -background lightblue -fill blue -pointsize 72 label:அகர முதல எழுத்தெல்லாம் ஆதிபகவன் முதற்றே உலகு label.gif
+
+magick convert -background lightblue -fill blue -pointsize 72 label:@agara.txt label.gif
+
+cat agara.txt
+
+magick convert -background lightblue -fill blue -font Nirmala-UI -pointsize 72 label:@Test_1.utf8 label8.jpg
+
+magick convert -background lightblue -fill blue -font Nirmala-UI -size 290x30 label:@Test_1.utf8 label9.jpg
+
+magick convert -background white -pointsize 12 -interline-spacing -3 -fill black -font Nirmala-UI -size 290x30 label:@Test_1.utf8 label14.jpg
+
+magick convert -background lightblue -fill blue -font Cambria -pointsize 72 label:Test2 test2.jpg
+
+அகர முதல எழுத்தெல்லாம் ஆதி
+பகவன் முதற்றே உலகு
+
+magick convert -background white -pointsize 12 -interline-spacing -3 -fill black -font Nirmala-UI -size 290x30 label:@Test_1.utf8 kural1_test.jpg
+
+magick convert -background white -pointsize 12 -fill black -font Vijaya -size 290x30 label:@Test_1.utf8 kural2_test3.jpg
+
+magick convert -background white -pointsize 10.75 -fill black -font suntommy -size 296x50 label:@Test_4.utf8 PLEASE.jpg

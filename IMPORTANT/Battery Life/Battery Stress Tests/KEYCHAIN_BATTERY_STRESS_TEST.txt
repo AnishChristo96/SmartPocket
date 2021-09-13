@@ -1,0 +1,358 @@
+										BATTERY STRESS TESTS
+
+KEY POINTS:
+ESP-32 Operating Voltage: 		2.2~3.6 V [DESIRED:3.3]
+E-Paper Display Operating Voltage:	2.4~3.7 V [DESIRED:3]
+
+
+
+
+
+1. SMART KEYCHAIN (BREADBOARD_3)
+
+TIME OF START:		2:25pm
+V. of Battery @ start:	4.14 V
+
+Time Period of ESP Wake:	6s
+Time Period of ESP Sleep:	5s
+Status @ start:			ESP erase flashed, Starting from Kural 1
+Kurals:				In english
+
+Description: The stress test is aimed at checking the BREADBOARD setup's power usage/battery performance. The ESP is flashed to new [i.e. it starts from Kural 1] condition and battery is
+added to the setup. Battery is recharged to full capacity and measured @ 4.14 V. The test program involves the ESP to display a kural and wait for 6 seconds before deep sleeping. Then it 
+sleeps for 5 seconds & wakes up. Here the VOLTAGE REGULATOR (LD33) WAS USED.
+
+RESULT:
+
+Kural reached:		965
+Stopped time:		5:23 pm
+Total time run:		~3 hours
+V. of Battery @ stop:	3.65 V
+Result Description:	"very bad"
+
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+2. SMART KEYCHAIN (BREADBOARD_3)
+
+TIME OF START:		5:43pm
+V. of Battery @ start:	4.09 V
+
+Time Period of ESP Wake:	6s
+Time Period of ESP Sleep:	5s
+Status @ start:			ESP erase flashed, Starting from Kural 1
+Kurals:				In english
+
+Description:
+	-Same as Test 1 except for 1 change
+	-LOW VOLTAGE REGULATOR (LD33) was removed
+	-Thus voltage regulators capacitors bypassed as well
+
+RESULT:
+
+Kural reached:		1330+323 (Completed 1 entire cycle + some)
+Stopped time:		Unknown 
+V. of Battery @ stop:	3.25 V
+Result Description:	"Better than first run because less capacitors"
+
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+3. SMART KEYCHAIN (BREADBOARD_2)
+
+TIME OF START:		4:45pm
+V. of Battery @ start:	4.14 V
+
+Time Period of ESP Wake:	5s
+Time Period of ESP Sleep:	5s
+Status @ start:			ESP erase flashed, Starting from Kural 1
+Kurals:				In tamil (as images)
+
+Description:
+	-Same as Test 2 except English kurals were replaced with Tamil Kural images (1-10 ONLY)
+
+RESULT:
+
+Kural reached:		1330+46 (Completed 1 entire cycle + some)
+Stopped time:		Unknown 
+V. of Battery @ stop:	3.3 V
+Result Description:	"Little bad compared to Test 2 (maybe due to displaying images kurals)"
+
+
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+1. SMART KEYCHAIN (DOT BOARD PROTOTYPE_1)
+
+TIME OF START:		4:25pm
+V. of Battery @ start:	4.13 V
+ADC READING:		3925
+BAT. PERCENCENTAGE:	95%
+
+Time Period per kural:	6s
+Status @ start:			ESP erase flashed, Starting from TAMIL Kural 1
+Kurals:				In tamil FONT
+Description:
+	-The Code has now been replaced with Tamil Font
+
+RESULT:
+
+Kural reached:		389
+Stopped time:		5:10 pm (must have stopped as early as 5:04pm) 
+V. of Battery @ stop:	3.92 V
+ADC READING:		3879
+BAT. PERCENCENTAGE:	94%
+Result Description:	FAILED DUE TO NVS SPACE ERROR
+			"The NVS stores key value pairs and that works fine. But favourites & Kural/timestamps are stored as BLOB's and strings. Thus NVS got full quickly.
+			The NVS erase_flash if full condition is not working !"
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+2. SMART KEYCHAIN (DOT BOARD PROTOTYPE_1)
+
+TIME OF START:		1:46pm
+V. of Battery @ start:	4.13 V
+ADC READING:		3925
+BAT. PERCENCENTAGE:	95%
+
+Time Period per kural:	6s
+Status @ start:			ESP erase flashed, Starting from TAMIL Kural 1
+Kurals:				In tamil FONT
+Description:
+	-Removed the 20 Kurals as Images, unecessary Lohit Tamil font, image_data & hello_world .c files thinking it would improve
+
+RESULT:
+
+Kural reached:		513
+Stopped time:		2:47 pm (must have stopped as early as 2:37pm) 
+V. of Battery @ stop:	3.9 V
+ADC READING:		3837
+BAT. PERCENCENTAGE:	93%
+Result Description:	FAILED DUE TO NVS SPACE ERROR AGAIN
+			"Mild improvement. but still very bad"
+
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+3. SMART KEYCHAIN (DOT BOARD PROTOTYPE_1)
+
+TIME OF START:		7:00pm
+V. of Battery @ start:	4.11 V
+ADC READING:		3926
+BAT. PERCENCENTAGE:	95%
+
+Time Period per kural:	6s
+Status @ start:			ESP erase flashed, Starting from TAMIL Kural 1
+Kurals:				In tamil FONT
+Description:
+	-Commented out the NVS string storing function (kural read at timestamp not stored in NVS or anywhere)
+
+RESULT:
+
+Kural reached:		2647
+Stopped time:		9:45 am (must have stopped at 4 hrs 25 minutes) 
+V. of Battery @ stop:	3.17 V
+ADC READING:		3048
+BAT. PERCENCENTAGE:	74%
+Result Description:	FAILED DUE TO NVS SPACE ERROR AGAIN
+			"Much better than before (IDEA TO INCREASE NVS STORAGE SPACE)"
+
+
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+4. SMART KEYCHAIN (DOT BOARD PROTOTYPE_1)
+
+TIME OF START:		3:05pm
+*********REMOVED BATTERY***********
+V. of Battery @ start:	NIL
+ADC READING:		NIL
+BAT. PERCENCENTAGE:	NIL
+
+Time Period per kural:	4.8s
+Status @ start:			ESP erase flashed, Starting from TAMIL Kural 1
+Kurals:				In tamil FONT
+Description:
+	-NO BATTERY
+	-Created a new NVS partition with 400 kb space
+	-Added the NVS string storing as well
+	-Just for checking NVS
+	-Time Period reduce to 4.8 seconds
+
+
+RESULT:
+
+Kural reached:		7915
+Stopped time:		9:45 am (must have filled up at 1:05 am)
+*********REMOVED BATTERY***********
+V. of Battery @ stop:	NIL
+ADC READING:		NIL
+BAT. PERCENCENTAGE:	NIL
+Result Description:	After keeping the keychain powered on overnight, the keychain reached Kural 7916, i.e. a little less than "6 times 1330", which is very good. So now the NVS can
+			store all nvs values including BLOB's and strings. 
+PROBLEM:		The e-paper display looked very pixelated (bad). Photos have been taken and attached to Dropbox. After an erase_flash, everything is back to normal.
+REMAINING ISSUES:	1) E-paper display became pixelated after a long time.
+			2) NVS has to be deleted/erased after NVS values are passed to phone through BT
+
+
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+5. SMART KEYCHAIN (DOT BOARD PROTOTYPE_1)
+
+TIME OF START:		7:02pm
+*********REMOVED BATTERY***********
+V. of Battery @ start:	NIL
+ADC READING:		NIL
+BAT. PERCENCENTAGE:	NIL
+
+Time Period per kural:	4.8s
+Status @ start:			ESP erase flashed, Starting from TAMIL Kural 1
+Kurals:				In tamil FONT
+Description:
+	-NO BATTERY
+	-Now both new NVS partition with 400 kb space and previously used Default NVS partition in use
+	-Buttons B1, B2, B4, BLE & Kural strings are stored in New NVS_1
+	-Kurals_No., Favourites, Fav_BLOB, Restart_counters & ADC_values stores in Default NVS
+	-Just for checking NVS
+	-Time Period same: 4.8 seconds
+
+
+RESULT:
+
+Kural reached:		6712 (& STILL COUNTING) (STILL COUNTING OVER 5 cycles)
+TIME NOTICED:		9:34 am (After 1 day)
+TIME STOPPED:		9:40 am (After 3 days)
+*********REMOVED BATTERY***********
+V. of Battery @ stop:	NIL
+ADC READING:		NIL
+BAT. PERCENCENTAGE:	NIL
+Result Description:	After keeping the keychain powered on overnight, the keychain reached Kural 6712, i.e. more than 5 times 1330, which is very good. So now the NVS can
+			store all nvs values including BLOB's and strings, separately and can be deleted without any problems
+PROBLEM:		No Problems so far !!
+REMAINING ISSUES:	During Last Test when NVS became full, E-paper started working differently and became very bad. After Full erase it returned to normal.
+			NOW THAT ISSUE HASNT OCCURED.
+
+EXTRA:			The Keychain was made to run for 63 hours straight and there was no error in display as before.
+			The kural counter reached 23,400+
+			The RTC timer on the keychain worked flawlessly as well.
+			The only remaining issue is that according to calculations, time period of one kural is 4.8 seconds. so 23434 kurals should have taken only 31 hours,
+			instead it took 63 hours. This is due to a lag when NVS_1 gets full due to kural_timestamps strings getting saved
+
+
+
+``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+6. SMART KEYCHAIN (DOT BOARD PROTOTYPE_1)
+
+
+TIME OF START:		10:20 am
+V. of Battery @ start:	3.14V
+ADC READING:		3927
+BAT. PERCENCENTAGE:	100%
+
+Time Period per kural:	4.8s
+Status @ start:			ESP erase flashed, Starting from TAMIL Kural 1
+Kurals:				In tamil FONT: ALL 1330 KURALS
+Description:
+	-1330 Tamil kurals (in encoded bamini) have been added
+	-Now Added Battery
+	-Battery not being Tested with Low Battery Display Warnings to test max battery usage
+
+LIVE OBSERVATIONS:
+
+1) kural 310+ : battery at 97%, adc at 3888
+2) kural 680+ : battery at 86%, adc at 3792
+3) kural 1217+: battery at 69%, adc at 3645
+4) kural 1863+: battery at 46%, adc at 3450
+
+END:
+
+KURAL 			2145 (1330 + 815 )
+BATTERY AT 		-32%
+ADC AT 			2769
+Result Description:	Very very good. Next remaining is correcting the 1330 encoded kurals & checking again with battery (battery calibrated, needs to be calibrated further)
+			After that is to check with low battery & Very low battery displays
+
+
+
+
+``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+
+7. SMART KEYCHAIN (DOT BOARD PROTOTYPE_1)
+
+
+TIME OF START:		7:47 pm
+V. of Battery @ start:	3.13V
+ADC READING:		3926
+BAT. PERCENCENTAGE:	100%
+
+Time Period per kural:	4.8s
+Status @ start:			ESP erase flashed, Starting from TAMIL Kural 1
+Kurals:				In tamil FONT: ALL 1330 KURALS (CORRECT VERSION)
+Description:
+	-1330 Tamil kurals CORRECT ENCODED VERSION
+	-Battery calibrated better with adc values from previous test
+	-Battery not being Tested with Low Battery Display Warnings to test max battery usage
+
+
+RESULT:
+
+RUNTIME:		3 hrs 40 minutes
+ADC READING:		2797
+BAT. PERCENCENTAGE:	2%
+Kural Reached:		2303 ( 1330 + 973)
+RESULT DESCRIPTION:
+	-Good performance so far compared to all battery tests
+	-Battery reached 0 at 2% itself. Battery calibrated further
+	-The same test to be run again to check if consistent, followed by low battery display tests, and deep sleep tests
+
+
+
+
+``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+
+8. SMART KEYCHAIN (DOT BOARD PROTOTYPE_1)
+
+
+TIME OF START:		10:28 am
+V. of Battery @ start:	3.14V
+ADC READING:		3935
+BAT. PERCENCENTAGE:	100%
+
+Time Period per kural:	4.8s
+Status @ start:			ESP erase flashed, Starting from TAMIL Kural 1
+Kurals:				In tamil FONT: ALL 1330 KURALS (CORRECT VERSION)
+Description:
+	-Exact same as previous test, testing for consistency
+	-Battery calibrated better with adc values from previous test
+
+
+RESULT:
+
+RUNTIME:		3hrs
+ADC READING:		2791
+BAT. PERCENCENTAGE:	0%
+Kural Reached:		2210 ( 1330 + 880 )
+RESULT DESCRIPTION:
+	-Consistent & exact battery values
+
+
+
+
