@@ -1,4 +1,4 @@
-ESP-32 SMART KEYCHAIN V1.0 (23_2_2021)
+ESP-32 SMART POCKET V1.0 (23_2_2021)
 UPDATES:
 1) Replaced 0.96 inch OLED screen with 2.9 inch e-paper display
 	Removed pins: 21 & 22 [PREV USED FOR SDA & SCK RESP FOR OLED]
@@ -94,7 +94,7 @@ UPDATES:
 
 4) Out of bounds error corrected
 
-5) BT name changed to "SMART KEYCHAIN"
+5) BT name changed to "SMART POCKET"
 
 6) Fixed Button Delays:
 	- All Buttons (left, right, favs, sleep on & wakeup from any button) refined to a 'USER LEVEL' (almost instantaneous)
@@ -149,7 +149,7 @@ Features:
 
 
 
-ESP-32 SMART KEYCHAIN V0.6 (29_1_2021)
+ESP-32 SMART POCKET V0.6 (29_1_2021)
 UPDATES:
 1) Added NEW GPIO Pin: GPIO 33 for the LED Notification in BT mode
 
@@ -205,7 +205,7 @@ UPDATES:
 
 4) Out of bounds error corrected
 
-5) BT name changed to "SMART KEYCHAIN"
+5) BT name changed to "SMART POCKET"
 
 6) Fixed Button Delays:
 	- All Buttons (left, right, favs, sleep on & wakeup from any button) refined to a 'USER LEVEL' (almost instantaneous)
@@ -266,7 +266,7 @@ Features:
 
 
 
-ESP-32 SMART KEYCHAIN V0.5 (27_1_2021)
+ESP-32 SMART POCKET V0.5 (27_1_2021)
 
 UPDATES:
 1) Added NEW GPIO Pin: GPIO 25 for the OLED Screen
@@ -312,7 +312,7 @@ UPDATES:
 
 4) Out of bounds error corrected
 
-5) BT name changed to "SMART KEYCHAIN"
+5) BT name changed to "SMART POCKET"
 
 6) Fixed Button Delays:
 	- All Buttons (left, right, favs, sleep on & wakeup from any button) refined to a 'USER LEVEL' (almost instantaneous)
@@ -381,7 +381,7 @@ Features:
 
 
 
-ESP-32 SMART KEYCHAIN V0.4 (26_1_2021)
+ESP-32 SMART POCKET V0.4 (26_1_2021)
 
 UPDATES:
 1) Added 1000 switch case [FOR TESTING NOT ACTUAL THIRUKKURAL]
@@ -409,7 +409,7 @@ UPDATES:
 
 4) Out of bounds error corrected
 
-5) BT name changed to "SMART KEYCHAIN"
+5) BT name changed to "SMART POCKET"
 
 6) Fixed Button Delays:
 	- All Buttons (left, right, favs, sleep on & wakeup from any button) refined to a 'USER LEVEL' (almost instantaneous)
@@ -461,7 +461,7 @@ Features:
 
 =========================================================================================================================
 
-ESP-32 SMART KEYCHAIN V0.3 (25_1_2021)
+ESP-32 SMART POCKET V0.3 (25_1_2021)
 
 Version Rejected: READ THIRUKKURAL.txt file caused very significant delays in moving to next message.
 
@@ -479,7 +479,7 @@ Version Rejected: READ THIRUKKURAL.txt file caused very significant delays in mo
 
 
 
-ESP-32 SMART KEYCHAIN V0.2 (25_1_2021)
+ESP-32 SMART POCKET V0.2 (25_1_2021)
 
 
 UPDATES:
@@ -496,7 +496,7 @@ UPDATES:
 
 4) Out of bounds error corrected
 
-5) BT name changed to "SMART KEYCHAIN"
+5) BT name changed to "SMART POCKET"
 
 6) Fixed Button Delays:
 	- All Buttons (left, right, favs, sleep on & wakeup from any button) refined to a 'USER LEVEL' (almost instantaneous)
@@ -561,7 +561,7 @@ Features:
 
 
 
-ESP-32 SMART KEYCHAIN V0.1 (23_1_2021)
+ESP-32 SMART POCKET V0.1 (23_1_2021)
 
 
 GPIO used: 26, 13, 14, 2, 21, 22, (4)
